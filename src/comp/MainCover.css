@@ -1,0 +1,21 @@
+.main-cover {
+  position: relative;
+  height: 60vh;
+  background-image: url('../../public/images/image-fp-homepage.jpg'); /* Atualize o caminho conforme necessário */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--logo-green);
+  font-size: 10vh;
+  text-align: center;
+}
+
+/* Oculta o MainCover em telas menores */
+@media (max-width: 768px) {
+  .main-cover {
+    display: none;
+  }
+}

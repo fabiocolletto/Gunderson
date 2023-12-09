@@ -1,0 +1,28 @@
+/* Estilos padrão */
+body {
+  background-color: #fff;
+  color: #333;
+  /* outros estilos */
+}
+
+/* Estilos para o modo escuro */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  /* outros estilos para o modo escuro */
+}
+
+/* Você pode adicionar estilos específicos para componentes no modo escuro também */
+.dark-mode nav a {
+  color: #fff;
+  /* outros estilos de navegação para o modo escuro */
+}
+header {
+  height: 5vh;
+  /* outros estilos para o header */
+}
+
+.main-cover, .about-preview, .news-preview, .service-preview {
+  height: 60vh;
+  /* outros estilos para cada seção */
+}

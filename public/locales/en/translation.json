@@ -1,0 +1,13 @@
+{
+  "header": {
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "news": "News",
+    "darkMode": "Dark Mode",
+    "logoAlt": "Gunderson Marine Logo"
+  },
+  "mainCover": {
+    "text": "Welcome to Gunderson Marine"
+  }
+}

@@ -1,0 +1,105 @@
+/* Estilos gerais e de reset, se houver, vão aqui */
+
+/* Cor da logo para uso nos estilos */
+:root {
+  --logo-green: #4CAF50; /* Esta é uma cor verde genérica, ajuste para corresponder ao tom exato da logo */
+}
+
+/* Estilos do Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f8f8f8; /* Cor de fundo clara */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Estilos para o logo */
+.logo-container img {
+  height: 4vh;
+  width: auto;
+}
+
+/* Estilos para a navegação */
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation a.active, /* Estilo para a página ativa */
+.settings button.active { /* Estilo para o idioma ativo */
+  color: var(--logo-green);
+}
+
+/* Estilos para os botões de idiomas e modo escuro */
+.settings button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+  background-color: #333; /* Fundo mais escuro */
+  color: #fff; /* Texto mais claro */
+}
+
+body.dark-mode .header {
+  background-color: #000; /* Fundo do header em modo escuro */
+}
+
+body.dark-mode .navigation a,
+body.dark-mode .settings button {
+  color: #fff; /* Texto dos links e botões em modo escuro */
+}
+
+/* Estilos para links ativos no modo claro */
+.navigation a.active, /* Estilo para a página ativa */
+.settings button.active { /* Estilo para o idioma ativo */
+  color: var(--logo-green);
+}
+
+/* Estilos para links ativos no modo escuro */
+body.dark-mode .navigation a.active,
+body.dark-mode .settings button.active {
+  color: var(--logo-green);
+}
+
+/* Estilos para os botões de idiomas e modo escuro no modo escuro */
+body.dark-mode .settings button {
+  color: #fff; /* Texto dos botões em modo escuro */
+}
+/* Ícone do menu */
+.menu-icon {
+  display: none; /* Escondido por padrão, será exibido apenas em telas menores */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block; /* Apenas exibe o ícone do menu em telas menores */
+  }
+
+  .navigation {
+    display: none; /* Escondido inicialmente, mostrado quando ativo */
+  }
+
+  .navigation.open {
+    display: flex; /* Mostra a navegação quando o ícone do menu é clicado */
+  }
+}
