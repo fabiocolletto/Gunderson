@@ -1,5 +1,6 @@
 {
   "header": {
+    "homepage": "Home",
     "aboutUs": "About Us",
     "services": "Services",
     "contact": "Contact",
@@ -9,5 +10,11 @@
   },
   "mainCover": {
     "text": "Welcome to Gunderson Marine"
-  }
+  },
+  "ServicePreview.text": "seciton services preview",
+  "NewsPreview.text": "News preview section en",
+  "AboutPreview.text": "About seciont en",
+  "ContactPreview.text": "ContactPreview en"
+
+  
 }

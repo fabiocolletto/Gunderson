@@ -1,4 +1,18 @@
-.news-preview {
-  height: 60vh;
-  /* Resto do seu CSS */
+.main-service {
+  position: relative;
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--logo-green);
+  font-size: 10vh;
+  text-align: center;
+}
+
+/* Oculta o MainCover em telas menores */
+@media (max-width: 768px) {
+  .main-service {
+    display: none;
+  }
 }

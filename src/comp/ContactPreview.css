@@ -1,4 +1,4 @@
-.main-about {
+.main-contact {
   position: relative;
   height: 80vh;
   background-position: center;
@@ -13,7 +13,7 @@
 
 /* Oculta o MainCover em telas menores */
 @media (max-width: 768px) {
-  .main-about {
+  .main-contact {
     display: none;
   }
 }

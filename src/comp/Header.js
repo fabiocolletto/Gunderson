@@ -41,6 +41,7 @@ const Header = () => {
       </button>
       <nav className={`navigation ${isMenuOpen ? 'open' : ''}`}>
         <ul>
+          <li><Link to="/homepage" className={currentPath === '/homepage' ? 'active' : ''}>{t('header.homepage')}</Link></li>
           <li><Link to="/aboutus" className={currentPath === '/aboutus' ? 'active' : ''}>{t('header.aboutUs')}</Link></li>
           <li><Link to="/services" className={currentPath === '/services' ? 'active' : ''}>{t('header.services')}</Link></li>
           <li><Link to="/contact" className={currentPath === '/contact' ? 'active' : ''}>{t('header.contact')}</Link></li>

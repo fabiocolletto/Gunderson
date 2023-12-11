@@ -1,10 +1,19 @@
 {
   "header": {
+    "homepage": "Inicio",
     "aboutUs": "Sobre Nós",
     "services": "Serviços",
     "contact": "Contato",
     "news": "Notícias",
     "darkMode": "Modo Escuro",
     "logoAlt": "Logotipo da Gunderson Marine"
-  }
+  },
+  "mainCover": {
+    "text": "Bem vindo a Gunderson Marine"
+  },
+  "ServicePreview.text": "sessao para chamadas de servicos",
+  "NewsPreview.text": "News preview section pr",
+  "AboutPreview.text": "About seciont pt",
+  "ContactPreview.text": "ContactPreview pt"
+  
 }
