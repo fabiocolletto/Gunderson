@@ -1,4 +1,63 @@
 .service-preview {
   height: 60vh;
-  /* Resto do seu CSS */
+  text-align: center;
 }
+
+.service-preview h2 {
+  font-size: 3vh; /* Tamanho relativo à altura da tela */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  width: 30vw; /* Largura relativa à largura da tela */
+  height: 40vh; /* Altura relativa à altura da tela */
+  padding: 2vh;
+  text-align: left;
+  color: var(--primary-text-color);
+}
+
+.card h3 {
+  font-size: 2vh;
+}
+
+.card p {
+  font-size: 1.5vh;
+}
+
+.card a {
+  display: block;
+  margin-top: 2vh;
+  color: var(--link-color);
+}
+
+/* Estilo para telas pequenas */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 80vw;
+    margin-bottom: 4vh;
+  }
+}
+
+/* Estilo para o modo escuro */
+.dark-mode .service-preview {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .card {
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo claro opaco */
+}
+
+/* Outros estilos conforme necessário */

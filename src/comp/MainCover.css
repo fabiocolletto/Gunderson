@@ -2,12 +2,23 @@
   position: relative;
   height: 80vh;
   background-position: center;
+  background-size: cover; /* Garante que a imagem cubra toda a tela */
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--logo-green);
   font-size: 10vh;
   text-align: center;
+}
+
+.cover-content {
+  background: rgba(0, 0, 0, 0.7); /* Fundo preto opaco */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dark-mode .main-cover {
+  filter: brightness(50%); /* Escurece a imagem no modo escuro */
 }
 
 /* Oculta o MainCover em telas menores */

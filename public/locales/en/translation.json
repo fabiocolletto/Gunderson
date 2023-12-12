@@ -11,10 +11,29 @@
   "mainCover": {
     "text": "Welcome to Gunderson Marine"
   },
-  "ServicePreview.text": "seciton services preview",
-  "NewsPreview.text": "News preview section en",
-  "AboutPreview.text": "About seciont en",
-  "ContactPreview.text": "ContactPreview en"
-
-  
+  "ServicePreview": {
+    "header": "Our Services",
+    "card1": {
+      "title": "Service 1",
+      "text": "Brief description of Service 1"
+    },
+    "card2": {
+      "title": "Service 2",
+      "text": "Brief description of Service 2"
+    },
+    "card3": {
+      "title": "Service 3",
+      "text": "Brief description of Service 3"
+    },
+    "cardLink": "Learn More"
+  },
+  "NewsPreview": {
+    "text": "News Preview Section"
+  },
+  "AboutPreview": {
+    "text": "About Us Section"
+  },
+  "ContactPreview": {
+    "text": "Contact Section"
+  }
 }

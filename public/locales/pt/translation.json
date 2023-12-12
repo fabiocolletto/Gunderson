@@ -1,6 +1,6 @@
 {
   "header": {
-    "homepage": "Inicio",
+    "homepage": "Início",
     "aboutUs": "Sobre Nós",
     "services": "Serviços",
     "contact": "Contato",
@@ -9,11 +9,31 @@
     "logoAlt": "Logotipo da Gunderson Marine"
   },
   "mainCover": {
-    "text": "Bem vindo a Gunderson Marine"
+    "text": "Bem-vindo à Gunderson Marine"
   },
-  "ServicePreview.text": "sessao para chamadas de servicos",
-  "NewsPreview.text": "News preview section pr",
-  "AboutPreview.text": "About seciont pt",
-  "ContactPreview.text": "ContactPreview pt"
-  
+  "ServicePreview": {
+    "header": "Nossos Serviços",
+    "card1": {
+      "title": "Serviço 1",
+      "text": "Descrição breve do Serviço 1"
+    },
+    "card2": {
+      "title": "Serviço 2",
+      "text": "Descrição breve do Serviço 2"
+    },
+    "card3": {
+      "title": "Serviço 3",
+      "text": "Descrição breve do Serviço 3"
+    },
+    "cardLink": "Saiba mais"
+  },
+  "NewsPreview": {
+    "text": "Seção de pré-visualização de notícias"
+  },
+  "AboutPreview": {
+    "text": "Seção sobre nós"
+  },
+  "ContactPreview": {
+    "text": "Seção de contato"
+  }
 }
