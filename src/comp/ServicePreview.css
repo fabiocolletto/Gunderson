@@ -1,10 +1,7 @@
 .service-preview {
   height: 60vh;
   text-align: center;
-}
-
-.service-preview h2 {
-  font-size: 3vh; /* Tamanho relativo à altura da tela */
+  /* Resto do seu CSS */
 }
 
 .cards-container {
@@ -21,7 +18,11 @@
   height: 40vh; /* Altura relativa à altura da tela */
   padding: 2vh;
   text-align: left;
-  color: var(--primary-text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante que o link fique no rodapé */
+  border: 1px solid #ccc; /* Borda no modo claro */
+  background-color: #f8f8f8; /* Fundo diferenciado no modo claro */
 }
 
 .card h3 {
@@ -33,8 +34,7 @@
 }
 
 .card a {
-  display: block;
-  margin-top: 2vh;
+  align-self: flex-end; /* Alinha o link à direita no rodapé */
   color: var(--link-color);
 }
 
@@ -58,6 +58,7 @@
 
 .dark-mode .card {
   background-color: rgba(255, 255, 255, 0.1); /* Fundo claro opaco */
+  border: none; /* Remove a borda no modo escuro */
 }
 
 /* Outros estilos conforme necessário */

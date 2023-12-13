@@ -1,18 +1,77 @@
-.main-service {
+.news-preview {
   position: relative;
-  height: 80vh;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--logo-green);
-  font-size: 10vh;
-  text-align: center;
+  padding: 20px;
+  height: 80vh; /* Altura total da sessão */
 }
 
-/* Oculta o MainCover em telas menores */
+.news-preview h2 {
+  font-size: 4vh;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow-x: auto; /* Permite rolagem horizontal */
+  height: 70vh; /* Altura para os cards */
+  white-space: nowrap; /* Impede que os cards quebrem linha */
+  -ms-overflow-style: none; /* Para IE e Edge */
+  scrollbar-width: none; /* Para Firefox */
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none; /* Para Chrome, Safari e Opera */
+}
+
+.news-card {
+  flex: 0 0 auto;
+  height: 60vh; /* Altura dos cards */
+  width: auto; /* Largura dos cards */
+  aspect-ratio: 9 / 16;
+  margin: 20px; /* Aumenta o espaço entre os cards */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.news-card h3 {
+  font-size: 2vh;
+}
+
+.news-card p {
+  font-size: 1.5vh;
+}
+
+.news-card a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}
+
+/* Adaptações para telas menores */
 @media (max-width: 768px) {
-  .main-service {
-    display: none;
+  .news-card {
+    width: 50vw; /* Ajuste para telas menores */
   }
 }

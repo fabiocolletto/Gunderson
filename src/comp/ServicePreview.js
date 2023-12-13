@@ -7,9 +7,9 @@ const ServicePreview = () => {
 
   // Caminhos corretos para as imagens de fundo dos cards
   const cardBackgroundImages = [
-    '/images/service-card1.svg', // Caminho para a imagem do primeiro card
-    '/images/service-card2.svg', // Caminho para a imagem do segundo card
-    '/images/service-card3.svg'   // Caminho para a imagem do terceiro card
+    '/images/service-card1.png', // Caminho para a imagem do primeiro card
+    '/images/service-card2.png', // Caminho para a imagem do segundo card
+    '/images/service-card3.png'   // Caminho para a imagem do terceiro card
   ];
 
   return (

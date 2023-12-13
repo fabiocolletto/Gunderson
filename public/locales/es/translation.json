@@ -27,13 +27,32 @@
     },
     "cardLink": "Aprende Más"
   },
-  "NewsPreview": {
-    "text": "Sección de Vista Previa de Noticias"
-  },
-  "AboutPreview": {
-    "text": "Sección Sobre Nosotros"
-  },
-  "ContactPreview": {
-    "text": "Sección de Contacto"
-  }
+  
+    "NewsPreview": {
+      "header": "Últimas Noticias",
+      "readMore": "Leer más",
+      "cards": [
+        {
+          "title": "Noticia 1",
+          "text": "Breve descripción de la Noticia 1",
+          "link": "/news1"
+        },
+        {
+          "title": "Noticia 2",
+          "text": "Breve descripción de la Noticia 2",
+          "link": "/news2"
+        },
+        {
+          "title": "Noticia 3",
+          "text": "Breve descripción de la Noticia 3",
+          "link": "/news3"
+        },
+        {
+          "title": "Noticia 4",
+          "text": "Breve descripción de la Noticia 4",
+          "link": "/news4"
+        }
+      ]
+    }
+  
 }
