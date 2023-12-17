@@ -1,64 +1,93 @@
+/* ServicePreview.css */
+/* Container principal para a seção de visualização do serviço */
 .service-preview {
-  height: 60vh;
-  text-align: center;
-  /* Resto do seu CSS */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 
+/* Container que agrupa todos os cards de serviço */
 .cards-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50vh;
+  flex-direction: row;
+  justify-content: center; /* Alterado para center para centralizar os cards */
+  flex-wrap: wrap; /* Permite que os cards se ajustem conforme o tamanho da tela */
+  gap: 2vw; /* Espaçamento entre os cards, substitui a margem */
+  align-items: flex-start;
+  height: auto;
+  padding: 0;
+  list-style: none;
+  width: 100%;
 }
 
+/* Estilos aplicados a cada card de serviço */
 .card {
   background-size: cover;
   background-position: center;
-  width: 30vw; /* Largura relativa à largura da tela */
-  height: 40vh; /* Altura relativa à altura da tela */
-  padding: 2vh;
-  text-align: left;
+  width: calc(25vw); /* Subtrai a margem do cálculo da largura */
+  height: calc((25vw) / .75); /* Mantém a proporção 3:4 */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Garante que o link fique no rodapé */
-  border: 1px solid #ccc; /* Borda no modo claro */
-  background-color: #f8f8f8; /* Fundo diferenciado no modo claro */
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  overflow: hidden;
 }
 
+/* Estilos para o título dentro do card */
 .card h3 {
-  font-size: 2vh;
+  font-size: 1.5vw; /* Tamanho da fonte do título baseado na largura da tela */
+  position: absolute; /* Posiciona o título de forma absoluta */
+  top: 20px; /* Posiciona no topo do card */
+  left: 20px; /* Posiciona à esquerda do card */
+  word-wrap: break-word; /* Quebra palavras longas para evitar transbordamento */
 }
 
+/* Estilos para o texto dentro do card */
 .card p {
-  font-size: 1.5vh;
+  font-size: 1vw; /* Tamanho da fonte do texto baseado na largura da tela */
+  position: absolute; /* Posiciona o texto de forma absoluta */
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajusta o posicionamento vertical */
+  left: 20px; /* Posiciona à esquerda do card com espaço */
+  word-wrap: break-word; /* Quebra palavras longas para evitar transbordamento */
+  white-space: normal; /* Espaços e quebras de linha padrão */
 }
 
+/* Estilos para o link dentro do card */
 .card a {
-  align-self: flex-end; /* Alinha o link à direita no rodapé */
-  color: var(--link-color);
+  position: absolute; /* Posiciona o link de forma absoluta */
+  bottom: 20px; /* Posiciona na parte inferior do card */
+  right: 20px; /* Posiciona à direita do card */
+  color: orange; /* Cor do link */
+  font-size: 1vw; /* Tamanho da fonte do link baseado na largura da tela */
 }
 
-/* Estilo para telas pequenas */
+/* Estilos para dispositivos com tela de até 768px de largura */
 @media (max-width: 768px) {
-  .cards-container {
-    flex-direction: column;
+  .card {
+    width: 80vw; /* Ajusta a largura dos cards para 80% da largura da tela */
+    height: calc(80vw / 0.75); /* Ajusta a altura para manter a proporção 3:4 */
   }
 
-  .card {
-    width: 80vw;
-    margin-bottom: 4vh;
+  .card h3, .card p, .card a {
+    font-size: 5vw; /* Aumenta o tamanho da fonte para visibilidade */
   }
 }
 
-/* Estilo para o modo escuro */
+/* Estilos para o modo escuro */
 .dark-mode .service-preview {
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 1); /* Fundo escuro para o modo noturno */
+  color: var(--logo-green); /* Cor do texto para o modo noturno */
 }
 
 .dark-mode .card {
-  background-color: rgba(255, 255, 255, 0.1); /* Fundo claro opaco */
-  border: none; /* Remove a borda no modo escuro */
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo claro e translúcido para os cards em modo escuro */
+  color: var(--logo-green); /* Cor do texto para o modo noturno */
 }
-
-/* Outros estilos conforme necessário */

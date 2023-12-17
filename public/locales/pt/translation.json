@@ -2,57 +2,48 @@
   "header": {
     "homepage": "Início",
     "aboutUs": "Sobre Nós",
-    "services": "Serviços",
+    "services": "Serviços Marítimos",
     "contact": "Contato",
-    "news": "Notícias",
+    "news": "Notícias Marítimas",
     "darkMode": "Modo Escuro",
     "logoAlt": "Logotipo da Gunderson Marine"
   },
   "mainCover": {
-    "text": "Bem-vindo à Gunderson Marine"
+    "text": "Liderando o Caminho em Engenharia Marítima"
   },
   "ServicePreview": {
-    "header": "Nossos Serviços",
+    "header": "Nossa Expertise",
     "card1": {
-      "title": "Serviço 1",
-      "text": "Descrição breve do Serviço 1"
+      "title": "Construção Naval",
+      "text": "Soluções inovadoras em construção naval para as necessidades marítimas modernas."
     },
     "card2": {
-      "title": "Serviço 2",
-      "text": "Descrição breve do Serviço 2"
+      "title": "Reparo Marítimo",
+      "text": "Serviços abrangentes de reparo para todos os tipos de embarcações marítimas."
     },
     "card3": {
-      "title": "Serviço 3",
-      "text": "Descrição breve do Serviço 3"
+      "title": "Engenharia Personalizada",
+      "text": "Soluções de engenharia sob medida para atender desafios marítimos específicos."
     },
-    "cardLink": "Saiba mais"
+    "cardLink": "Descubra Mais"
   },
-  
   "NewsPreview": {
-    "header": "Últimas Notícias",
+    "header": "Últimas Novidades Marítimas",
     "readMore": "Leia mais",
     "cards": [
       {
-        "title": "Notícia 1",
-        "text": "Breve descrição da Notícia 1",
-        "link": "/news1"
+        "title": "Iniciativas Ecológicas",
+        "text": "Gunderson Marine lidera com novas tecnologias de navegação ecológicas.",
+        "link": "",
+        "background": "../images/service-card1.png"
       },
       {
-        "title": "Notícia 2",
-        "text": "Breve descrição da Notícia 2",
-        "link": "/news2"
-      },
-      {
-        "title": "Notícia 3",
-        "text": "Breve descrição da Notícia 3",
-        "link": "/news3"
-      },
-      {
-        "title": "Notícia 4",
-        "text": "Breve descrição da Notícia 4",
-        "link": "/news4"
+        "title": "Designs Premiados",
+        "text": "Nossos designs inovadores de navios recebem aclamação internacional.",
+        "link": "",
+        "background": "../images/service-card2.png"
       }
     ]
   }
-  
-}  
+}
+

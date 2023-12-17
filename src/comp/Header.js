@@ -1,43 +1,34 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
+import logo from '../images/logo-green.png';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  const [scrolled, setScrolled] = useState(false);
 
-  // Obter o caminho atual para destacar o link ativo
-  const currentPath = location.pathname;
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
 
-  // Obter o idioma atual para destacar o botão de idioma ativo
-  const currentLanguage = i18n.language;
+    window.addEventListener('scroll', handleScroll);
 
-  // Função para alternar o modo escuro
-  const toggleDarkMode = () => {
-    document.body.classList.toggle('dark-mode');
-  };
-
-  // Função para alterar o idioma
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-
-  // Função para alternar a visibilidade do menu em telas pequenas
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <header className="header">
       <div className="logo-container">
         <Link to="/">
-          <img src="/images/logo-green.png" alt={t('header.logoAlt')} />
+          <img src="../images/logo-green.png" alt={t('header.logoAlt')} />
         </Link>
       </div>
       <button onClick={toggleMenu} className={`menu-icon ${isMenuOpen ? 'active' : ''}`}>
-        <img src="/images/icone-menu.svg" alt="Menu" />
+        <img src="../imagens/icone-menu.png" alt="Menu" />
       </button>
       <nav className={`navigation ${isMenuOpen ? 'open' : ''}`}>
         <ul>

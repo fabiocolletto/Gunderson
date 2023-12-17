@@ -2,82 +2,47 @@
   "header": {
     "homepage": "Home",
     "aboutUs": "About Us",
-    "services": "Services",
+    "services": "Marine Services",
     "contact": "Contact",
-    "news": "News",
+    "news": "Marine News",
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
   "mainCover": {
-    "text": "Welcome to Gunderson Marine"
+    "text": "Leading the Way in Marine Engineering"
   },
   "ServicePreview": {
-    "header": "Our Services",
+    "header": "Our Expertise",
     "card1": {
-      "title": "Service 1",
-      "text": "Brief description of Service 1"
+      "title": "Shipbuilding",
+      "text": "Innovative shipbuilding solutions for modern maritime needs.",
+      "background": "../images/service-card1.png"
     },
     "card2": {
-      "title": "Service 2",
-      "text": "Brief description of Service 2"
+      "title": "Marine Repair",
+      "text": "Comprehensive repair services for all types of marine vessels.",
+      "background": "../images/service-card2.png"
     },
     "card3": {
-      "title": "Service 3",
-      "text": "Brief description of Service 3"
+      "title": "Custom Engineering",
+      "text": "Tailored engineering solutions to meet specific maritime challenges.",
+      "background": "../images/service-card3.png"
     },
-    "cardLink": "Learn More"
+    "cardLink": "Discover More"
   },
   "NewsPreview": {
-    "header": "Latest News",
+    "header": "Latest Marine Insights",
     "readMore": "Read more",
     "cards": [
       {
-        "title": "News 1",
-        "text": "Brief description of News 1",
-        "link": "/news1",
-        "background": "path/to/background1.jpg"
+        "title": "Eco-Friendly Initiatives",
+        "text": "Gunderson Marine leads with new eco-friendly shipping technologies.",
+        "background": "./images/service-card1.png"
       },
       {
-        "title": "News 2",
-        "text": "Brief description of News 2",
-        "link": "/news2",
-        "background": "path/to/background2.jpg"
-      },
-      {
-        "title": "News 3",
-        "text": "Brief description of News 3",
-        "link": "/news3",
-        "background": "path/to/background3.jpg"
-      },
-      {
-        "title": "News 4",
-        "text": "Brief description of News 4",
-        "link": "/news4",
-        "background": "path/to/background4.jpg"
-      },
-      {
-        "title": "News 5",
-        "text": "Brief description of News 5",
-        "link": "/news5",
-        "background": "path/to/background5.jpg"
-      },
-      {
-        "title": "News 6",
-        "text": "Brief description of News 6",
-        "link": "/news6",
-        "background": "path/to/background6.jpg"
-      },
-      {
-        "title": "News 7",
-        "text": "Brief description of News 7",
-        "link": "/news7",
-        "background": "path/to/background7.jpg"
-      },
-      {
-        "title": "News 8",
-        "text": "Brief description of News 8",
-        "link": "/news8",
-        "background": "path/to/background8.jpg"
+        "title": "Award-Winning Designs",
+        "text": "Our innovative ship designs receive international acclaim.",
+        "background": "../images/service-card2.png"
       }
     ]
   }

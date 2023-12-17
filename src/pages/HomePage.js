@@ -1,3 +1,4 @@
+/*homepage.js*/
 import React from 'react';
 import MainCover from '../comp/MainCover'; // Caminho correto já que está na mesma pasta de comp
 import ServicePreview from '../comp/ServicePreview'; // Caminho correto já que está na mesma pasta de comp
@@ -9,10 +10,9 @@ import ContactPreview from '../comp/ContactPreview'; // Caminho correto já que 
 const HomePage = () => {
   return (
     <div>
-      <MainCover /> {/* Incluindo o componente MainCover */}
+      <MainCover /> 
       <ServicePreview />
       <NewsPreview />
-      <AboutPreview />
       <ContactPreview />
 
     </div>

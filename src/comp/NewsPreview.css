@@ -12,24 +12,17 @@
 
 .cards-container {
   display: flex;
-  justify-content: start;
+  justify-content:left;
   align-items: center;
   overflow-x: auto; /* Permite rolagem horizontal */
   height: 70vh; /* Altura para os cards */
   white-space: nowrap; /* Impede que os cards quebrem linha */
-  -ms-overflow-style: none; /* Para IE e Edge */
-  scrollbar-width: none; /* Para Firefox */
-}
-
-.cards-container::-webkit-scrollbar {
-  display: none; /* Para Chrome, Safari e Opera */
 }
 
 .news-card {
   flex: 0 0 auto;
   height: 60vh; /* Altura dos cards */
   width: auto; /* Largura dos cards */
-  aspect-ratio: 9 / 16;
   margin: 20px; /* Aumenta o espaço entre os cards */
   background-size: cover;
   background-position: center;
@@ -52,7 +45,7 @@
   text-decoration: none;
 }
 
-.scroll-button {
+.scroll-buttonn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -61,11 +54,11 @@
   cursor: pointer;
 }
 
-.scroll-button.left {
+.scroll-buttonn.left {
   left: 10px;
 }
 
-.scroll-button.right {
+.scroll-buttonn.right {
   right: 10px;
 }
 

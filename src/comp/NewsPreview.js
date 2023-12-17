@@ -9,6 +9,13 @@ const NewsPreview = () => {
   const [showScrollLeft, setShowScrollLeft] = useState(false);
   const [showScrollRight, setShowScrollRight] = useState(true);
 
+  useEffect(() => {
+    if (Array.isArray(newsCards)) {
+      // Códigos de atualização de estado ou efeitos colaterais
+      // Relacionados ao carregamento de newsCards
+    }
+  }, [newsCards]);
+
   const scroll = (direction) => {
     const { current } = containerRef;
     if (current) {
@@ -25,15 +32,11 @@ const NewsPreview = () => {
     }
   };
 
-  useEffect(() => {
-    checkScrollButtons();
-  }, []); // Verifica os botões de rolagem na montagem do componente
-
   return (
     <div className="news-preview">
       <h2>{t('NewsPreview.header')}</h2>
       <div className="cards-container" ref={containerRef} onScroll={checkScrollButtons}>
-        {newsCards.map((news, index) => (
+        {Array.isArray(newsCards) && newsCards.map((news, index) => (
           <div className="news-card" key={index} style={{ backgroundImage: `url(${news.background})` }}>
             <h3>{news.title}</h3>
             <p>{news.text}</p>
@@ -41,8 +44,8 @@ const NewsPreview = () => {
           </div>
         ))}
       </div>
-      {showScrollLeft && <button className="scroll-button left" onClick={() => scroll('left')}>◀</button>}
-      {showScrollRight && <button className="scroll-button right" onClick={() => scroll('right')}>▶</button>}
+      {showScrollLeft && <button className="scroll-buttonn left" onClick={() => scroll('left')}>◀</button>}
+      {showScrollRight && <button className="scroll-buttonn right" onClick={() => scroll('right')}>▶</button>}
     </div>
   );
 };

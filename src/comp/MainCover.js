@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './MainCover.css';
-import backgroundImage from '../images/image-fp-homepage.jpg'; // Atualize o caminho
+import backgroundImage from '../images/homepage.jpg'; 
+
 
 const MainCover = () => {
   const { t } = useTranslation();

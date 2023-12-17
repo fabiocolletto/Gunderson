@@ -1,19 +1,40 @@
 .main-contact {
-  position: relative;
-  height: 80vh;
-  background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  color: var(--logo-green);
-  font-size: 10vh;
-  text-align: center;
+  height: 80vh;
 }
 
+.contact-column {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* ou qualquer cor que se ajuste ao seu design */
+}
 
-/* Oculta o MainCover em telas menores */
+.message-form, .career-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: var(--logo-green);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Oculta a seção em telas menores */
 @media (max-width: 768px) {
   .main-contact {
-    display: none;
+    flex-direction: column;
   }
 }

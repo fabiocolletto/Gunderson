@@ -1,34 +1,62 @@
-/* Estilos gerais e de reset, se houver, vão aqui */
-
-/* Cor da logo para uso nos estilos */
+/*Script Header.css*/
 :root {
-  --logo-green: #4CAF50; /* Esta é uma cor verde genérica, ajuste para corresponder ao tom exato da logo */
+  --logo-green: #4CAF50;
+  --header-height: 15vh; /* Altura do cabeçalho definida como variável para fácil ajuste */
 }
 
-/* Estilos do Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background-color: #f8f8f8; /* Cor de fundo clara */
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo preto opaco */
   position: sticky;
   top: 0;
   z-index: 1000;
+  height: var(--header-height);
+  transition: background-color 0.3s, height 0.3s;
 }
 
-/* Estilos para o logo */
+.logo-container {
+  flex-basis: 25%; /* Espaço alocado para a logo */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: var(--header-height);
+  transition: all 0.3s;
+}
+
 .logo-container img {
-  height: 6vh;
-  width: auto;
+  width: 120px; /* Largura da logo */
+  transition: opacity 0.3s, transform 0.3s;
 }
 
-/* Estilos para a navegação */
+/* Logo some e nome da empresa aparece após rolagem */
+body.scrolled .logo-container img {
+  transform: translateY(-100%); /* Move a logo para cima */
+  opacity: 0;
+}
+
+body.scrolled .logo-container::after {
+  content: 'Gunderson Marine'; /* Nome da empresa */
+  color: var(--logo-green);
+  font-size: 1.5rem;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.navigation {
+  flex-basis: 50%; /* Espaço alocado para navegação */
+  display: flex;
+  justify-content: center;
+  font-size: 2vw; /* Ajusta o tamanho da fonte do título baseado na largura da tela */
+}
+
 .navigation ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   display: flex;
+  margin: 0;
 }
 
 .navigation li {
@@ -37,69 +65,45 @@
 
 .navigation a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 
-.navigation a.active, /* Estilo para a página ativa */
-.settings button.active { /* Estilo para o idioma ativo */
-  color: var(--logo-green);
+.settings {
+  flex-basis: 25%; /* Espaço alocado para configurações */
+  display: flex;
+  justify-content: flex-end;
 }
 
-/* Estilos para os botões de idiomas e modo escuro */
 .settings button {
   margin-left: 10px;
   background: none;
   border: none;
   cursor: pointer;
+  color: white;
 }
 
 /* Estilos para o modo escuro */
-body.dark-mode {
-  background-color: #333; /* Fundo mais escuro */
-  color: #fff; /* Texto mais claro */
-}
-
 body.dark-mode .header {
-  background-color: #000; /* Fundo do header em modo escuro */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 body.dark-mode .navigation a,
 body.dark-mode .settings button {
-  color: #fff; /* Texto dos links e botões em modo escuro */
-}
-
-/* Estilos para links ativos no modo claro */
-.navigation a.active, /* Estilo para a página ativa */
-.settings button.active { /* Estilo para o idioma ativo */
-  color: var(--logo-green);
-}
-
-/* Estilos para links ativos no modo escuro */
-body.dark-mode .navigation a.active,
-body.dark-mode .settings button.active {
-  color: var(--logo-green);
-}
-
-/* Estilos para os botões de idiomas e modo escuro no modo escuro */
-body.dark-mode .settings button {
-  color: #fff; /* Texto dos botões em modo escuro */
-}
-/* Ícone do menu */
-.menu-icon {
-  display: none; /* Escondido por padrão, será exibido apenas em telas menores */
+  color: #fff;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .menu-icon {
-    display: block; /* Apenas exibe o ícone do menu em telas menores */
+  .logo-container {
+    justify-content: center;
   }
 
-  .navigation {
-    display: none; /* Escondido inicialmente, mostrado quando ativo */
+  .navigation,
+  .settings {
+    display: none;
   }
 
-  .navigation.open {
-    display: flex; /* Mostra a navegação quando o ícone do menu é clicado */
+  body.scrolled .logo-container::after {
+    display: none; /* Oculta o nome da empresa em telas pequenas após rolagem */
   }
 }

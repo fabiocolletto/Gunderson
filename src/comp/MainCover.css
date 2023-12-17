@@ -1,8 +1,11 @@
+/*Script MainCover.css*/
 .main-cover {
-  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 80vh;
   background-position: center;
-  background-size: cover; /* Garante que a imagem cubra toda a tela */
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,16 +15,26 @@
 }
 
 .cover-content {
-  background: rgba(0, 0, 0, 0.7); /* Fundo preto opaco */
+  background: rgba(0, 0, 0, 0.7);
   padding: 5px;
   border-radius: 5px;
+  width: fit-content;
+  max-width: 30vw;
+  padding: 10px;
+  font-size: 5vh;
+  position: relative;
+  top: 50px;
+  right: 30vw;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .dark-mode .main-cover {
-  filter: brightness(50%); /* Escurece a imagem no modo escuro */
+  filter: brightness(50%);
+  background-color: rgba(0, 0, 0, 1); /* Fundo escuro para o modo noturno */
+
 }
 
-/* Oculta o MainCover em telas menores */
 @media (max-width: 768px) {
   .main-cover {
     display: none;
