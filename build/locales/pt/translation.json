@@ -1,0 +1,49 @@
+{
+  "header": {
+    "homepage": "Início",
+    "aboutUs": "Sobre Nós",
+    "services": "Serviços Marítimos",
+    "contact": "Contato",
+    "news": "Notícias Marítimas",
+    "darkMode": "Modo Escuro",
+    "logoAlt": "Logotipo da Gunderson Marine"
+  },
+  "mainCover": {
+    "text": "Liderando o Caminho em Engenharia Marítima"
+  },
+  "ServicePreview": {
+    "header": "Nossa Expertise",
+    "card1": {
+      "title": "Construção Naval",
+      "text": "Soluções inovadoras em construção naval para as necessidades marítimas modernas."
+    },
+    "card2": {
+      "title": "Reparo Marítimo",
+      "text": "Serviços abrangentes de reparo para todos os tipos de embarcações marítimas."
+    },
+    "card3": {
+      "title": "Engenharia Personalizada",
+      "text": "Soluções de engenharia sob medida para atender desafios marítimos específicos."
+    },
+    "cardLink": "Descubra Mais"
+  },
+  "NewsPreview": {
+    "header": "Últimas Novidades Marítimas",
+    "readMore": "Leia mais",
+    "cards": [
+      {
+        "title": "Iniciativas Ecológicas",
+        "text": "Gunderson Marine lidera com novas tecnologias de navegação ecológicas.",
+        "link": "",
+        "background": "../images/service-card1.png"
+      },
+      {
+        "title": "Designs Premiados",
+        "text": "Nossos designs inovadores de navios recebem aclamação internacional.",
+        "link": "",
+        "background": "../images/service-card2.png"
+      }
+    ]
+  }
+}
+

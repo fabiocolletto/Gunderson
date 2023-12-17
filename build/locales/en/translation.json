@@ -1,0 +1,49 @@
+{
+  "header": {
+    "homepage": "Home",
+    "aboutUs": "About Us",
+    "services": "Marine Services",
+    "contact": "Contact",
+    "news": "Marine News",
+    "darkMode": "Dark Mode",
+    "logoAlt": "Gunderson Marine Logo"
+  },
+  "mainCover": {
+    "text": "Leading the Way in Marine Engineering"
+  },
+  "ServicePreview": {
+    "header": "Our Expertise",
+    "card1": {
+      "title": "Shipbuilding",
+      "text": "Innovative shipbuilding solutions for modern maritime needs.",
+      "background": "../images/service-card1.png"
+    },
+    "card2": {
+      "title": "Marine Repair",
+      "text": "Comprehensive repair services for all types of marine vessels.",
+      "background": "../images/service-card2.png"
+    },
+    "card3": {
+      "title": "Custom Engineering",
+      "text": "Tailored engineering solutions to meet specific maritime challenges.",
+      "background": "../images/service-card3.png"
+    },
+    "cardLink": "Discover More"
+  },
+  "NewsPreview": {
+    "header": "Latest Marine Insights",
+    "readMore": "Read more",
+    "cards": [
+      {
+        "title": "Eco-Friendly Initiatives",
+        "text": "Gunderson Marine leads with new eco-friendly shipping technologies.",
+        "background": "./images/service-card1.png"
+      },
+      {
+        "title": "Award-Winning Designs",
+        "text": "Our innovative ship designs receive international acclaim.",
+        "background": "../images/service-card2.png"
+      }
+    ]
+  }
+}
