@@ -1,39 +1,46 @@
 {
   "header": {
     "homepage": "Inicio",
-    "aboutUs": "Acerca de nosotros",
-    "services": "Servicios marinos",
+    "aboutUs": "Sobre Nosotros",
+    "services": "Servicios Marítimos",
     "contact": "Contacto",
-    "news": "Noticias marinas",
-    "darkMode": "Modo oscuro",
-    "logoAlt": "Logo de Gunderson Marine"
+    "news": "Noticias Marítimas",
+    "darkMode": "Modo Oscuro",
+    "logoAlt": "Logotipo de Gunderson Marine"
   },
   "mainCover": {
-    "text": "Liderando en Ingeniería Marina"
+    "text": "Liderando el Camino en Ingeniería Marítima"
   },
-  
   "ServicePreview": {
-    "header": "Nuestra Experticia",
-    "cardLink": "Descubrir Más",
     "card1": {
-      "title": "Construcción Naval Innovadora",
-      "text": "Pioneros en ingeniería marina avanzada.",
-      "background": "url_para_imagen_de_fondo_1",
-      "cardLink": "Aprende Más sobre Construcción Naval"
+      "title": "Navegación Avanzada",
+      "text": "Tecnología de vanguardia para una navegación marítima precisa.",
+      "link": "enlace_a_informacion_detallada_de_navegacion",
+      "cardLink": "Aprenda Más sobre Navegación"
     },
     "card2": {
-      "title": "Prácticas Sostenibles",
-      "text": "Comprometidos con soluciones marinas respetuosas con el medio ambiente.",
-      "background": "url_para_imagen_de_fondo_2",
-      "cardLink": "Explora nuestra Sostenibilidad"
+      "title": "Operaciones Ecológicas",
+      "text": "Abrazando prácticas sostenibles en actividades marítimas.",
+      "link": "enlace_a_operaciones_ecologicas",
+      "cardLink": "Descubra Nuestras Iniciativas Verdes"
     },
     "card3": {
-      "title": "Soluciones a Medida",
-      "text": "Servicios a medida para satisfacer necesidades marinas únicas.",
-      "background": "url_para_imagen_de_fondo_3",
-      "cardLink": "Información sobre Servicios a Medida"
+      "title": "Medidas de Seguridad",
+      "text": "Priorizando la seguridad en todas nuestras operaciones marítimas.",
+      "link": "enlace_a_medidas_de_seguridad",
+      "cardLink": "Protocolos y Estándares de Seguridad"
+    },
+    "card4": {
+      "title": "Ingeniería a Medida",
+      "text": "Soluciones de ingeniería a medida para necesidades especializadas.",
+      "link": "enlace_a_ingenieria_a_medida",
+      "cardLink": "Soluciones de Ingeniería Personalizadas"
+    },
+    "card5": {
+      "title": "Formación Marítima",
+      "text": "Programas de formación completos para profesionales marítimos.",
+      "link": "enlace_a_formacion_maritima",
+      "cardLink": "Explore Programas de Formación"
     }
   }
-  
-  
 }

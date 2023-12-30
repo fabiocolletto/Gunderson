@@ -1,37 +1,46 @@
 {
   "header": {
-    "homepage": "Página Inicial",
+    "homepage": "Início",
     "aboutUs": "Sobre Nós",
     "services": "Serviços Marítimos",
     "contact": "Contato",
     "news": "Notícias Marítimas",
     "darkMode": "Modo Escuro",
-    "logoAlt": "Logo da Gunderson Marine"
+    "logoAlt": "Logotipo da Gunderson Marine"
   },
   "mainCover": {
-    "text": "Liderando na Engenharia Marítima"
+    "text": "Liderando o Caminho em Engenharia Marítima"
   },
-  
   "ServicePreview": {
-    "header": "Nossa Especialização",
-    "cardLink": "Descubra Mais",
     "card1": {
-      "title": "Construção Naval Inovadora",
-      "text": "Pioneiros em engenharia marinha avançada.",
-      "background": "url_para_imagem_de_fundo_1",
-      "cardLink": "Saiba Mais sobre Construção Naval"
+      "title": "Navegação Avançada",
+      "text": "Tecnologia de ponta para navegação marítima precisa.",
+      "link": "link_para_informacoes_detalhadas_de_navegacao",
+      "cardLink": "Saiba Mais sobre Navegação"
     },
     "card2": {
-      "title": "Práticas Sustentáveis",
-      "text": "Compromisso com soluções marinhas ecológicas.",
-      "background": "url_para_imagem_de_fundo_2",
-      "cardLink": "Explore nossa Sustentabilidade"
+      "title": "Operações Ecológicas",
+      "text": "Adotando práticas sustentáveis em atividades marítimas.",
+      "link": "link_para_operacoes_ecologicas",
+      "cardLink": "Descubra Nossas Iniciativas Verdes"
     },
     "card3": {
-      "title": "Soluções Personalizadas",
-      "text": "Serviços sob medida para atender necessidades marinhas únicas.",
-      "background": "url_para_imagem_de_fundo_3",
-      "cardLink": "Informação sobre Serviços Personalizados"
+      "title": "Medidas de Segurança",
+      "text": "Priorizando a segurança em todas as nossas operações marítimas.",
+      "link": "link_para_medidas_de_seguranca",
+      "cardLink": "Protocolos e Padrões de Segurança"
+    },
+    "card4": {
+      "title": "Engenharia Personalizada",
+      "text": "Soluções de engenharia sob medida para necessidades especializadas.",
+      "link": "link_para_engenharia_personalizada",
+      "cardLink": "Soluções de Engenharia Personalizadas"
+    },
+    "card5": {
+      "title": "Treinamento Marítimo",
+      "text": "Programas de treinamento abrangentes para profissionais marítimos.",
+      "link": "link_para_treinamento_maritimo",
+      "cardLink": "Explore Programas de Treinamento"
     }
   }
-}  
+}

@@ -1,6 +1,5 @@
-
 {
-  "header": {
+    "header": {
     "homepage": "Home",
     "aboutUs": "About Us",
     "services": "Marine Services",
@@ -9,29 +8,43 @@
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
+
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
+  
   "ServicePreview": {
-    "header": "Our Expertise",
-    "cardLink": "Discover More",
-    "card1": {
-      "title": "Innovative Shipbuilding",
-      "text": "Pioneering in advanced marine engineering.",
-      "background": "url_to_background_image_1",
-      "link": "Learn More about Shipbuilding"
-    },
-    "card2": {
-      "title": "Sustainable Practices",
-      "text": "Committed to eco-friendly marine solutions.",
-      "background": "url_to_background_image_2",
-      "link": "Explore our Sustainability"
-    },
-    "card3": {
-      "title": "Custom Solutions",
-      "text": "Tailored services to meet unique marine needs.",
-      "background": "url_to_background_image_3",
-      "link": "Custom Services Information"
+      "card1": {
+        "title": "Advanced Navigation",
+        "text": "Leading-edge technology for precise marine navigation.",
+        "link": "link_to_detailed_navigation_info",
+        "cardLink": "Learn More about Navigation"
+      },
+      "card2": {
+        "title": "Eco-Friendly Operations",
+        "text": "Embracing sustainable practices in maritime activities.",
+        "link": "link_to_eco_friendly_operations",
+        "cardLink": "Discover Our Green Initiatives"
+      },
+      "card3": {
+        "title": "Safety Measures",
+        "text": "Prioritizing safety in all our marine operations.",
+        "link": "link_to_safety_measures",
+        "cardLink": "Safety Protocols and Standards"
+      },
+      "card4": {
+        "title": "Custom Engineering",
+        "text": "Bespoke engineering solutions for specialized needs.",
+        "link": "link_to_custom_engineering",
+        "cardLink": "Customized Engineering Solutions"
+      },
+      "card5": {
+        "title": "Maritime Training",
+        "text": "Comprehensive training programs for marine professionals.",
+        "link": "link_to_maritime_training",
+        "cardLink": "Explore Training Programs"
+      }
     }
   }
-}  
+
+

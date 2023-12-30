@@ -14,7 +14,7 @@ const ServiceSection = () => {
       <Swiper
         spaceBetween={5} // Espaçamento entre os slides
         slidesPerView={3} // Número de slides visíveis
-        // Adicione outras configurações do Swiper conforme necessário
+        // Outras configurações do Swiper podem ser adicionadas aqui
       >
         {Object.keys(serviceItems).filter(key => key.startsWith('card')).map((key, index) => (
           <SwiperSlide key={index}>
@@ -24,8 +24,7 @@ const ServiceSection = () => {
             >
               <h3>{t(`ServicePreview.${key}.title`)}</h3>
               <p>{t(`ServicePreview.${key}.text`)}</p>
-              {/* Aqui foi corrigido para usar a chave 'link' dentro de cada card */}
-              <a href={serviceItems[key].link}>{t(`ServicePreview.${key}.link`)}</a>
+              <a href={serviceItems[key].link}>{t(`ServicePreview.${key}.cardLink`)}</a>
             </div>
           </SwiperSlide>
         ))}
@@ -35,3 +34,4 @@ const ServiceSection = () => {
 };
 
 export default ServiceSection;
+
