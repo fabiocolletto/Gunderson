@@ -12,28 +12,28 @@
     "text": "Liderando en Ingeniería Marina"
   },
   
-    "ServicePreview": {
-      "header": "Nuestra Experiencia",
-      "cardLink": "Descubre Más",
-      "card1": {
-        "title": "Construcción Naval Innovadora",
-        "text": "Pioneros en ingeniería marina avanzada.",
-        "background": "url_para_imagen_de_fondo_1",
-        "cardLink": "Más Información sobre Construcción Naval"
-      },
-      "card2": {
-        "title": "Prácticas Sostenibles",
-        "text": "Comprometidos con soluciones marinas ecológicas.",
-        "background": "url_para_imagen_de_fondo_2",
-        "cardLink": "Explora nuestra Sostenibilidad"
-      },
-      "card3": {
-        "title": "Soluciones Personalizadas",
-        "text": "Servicios a medida para necesidades marinas únicas.",
-        "background": "url_para_imagen_de_fondo_3",
-        "cardLink": "Información de Servicios a Medida"
-      }
-    
+  "ServicePreview": {
+    "header": "Nuestra Experticia",
+    "cardLink": "Descubrir Más",
+    "card1": {
+      "title": "Construcción Naval Innovadora",
+      "text": "Pioneros en ingeniería marina avanzada.",
+      "background": "url_para_imagen_de_fondo_1",
+      "cardLink": "Aprende Más sobre Construcción Naval"
+    },
+    "card2": {
+      "title": "Prácticas Sostenibles",
+      "text": "Comprometidos con soluciones marinas respetuosas con el medio ambiente.",
+      "background": "url_para_imagen_de_fondo_2",
+      "cardLink": "Explora nuestra Sostenibilidad"
+    },
+    "card3": {
+      "title": "Soluciones a Medida",
+      "text": "Servicios a medida para satisfacer necesidades marinas únicas.",
+      "background": "url_para_imagen_de_fondo_3",
+      "cardLink": "Información sobre Servicios a Medida"
+    }
   }
+  
   
 }

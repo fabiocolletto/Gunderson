@@ -7,16 +7,16 @@ import './ServicePreview.css'; // Importando o CSS personalizado
 
 const ServiceSection = () => {
   const { t, i18n } = useTranslation();
-  const serviceItems = i18n.getResourceBundle(i18n.language, 'translation').ServicePreview;
+  const serviceItems = i18n.getResourceBundle(i18n.language, 'translation').ServicePreview || {};
 
   return (
     <div className="service-container">
       <Swiper
-        spaceBetween={20} // Espaçamento entre os slides
+        spaceBetween={5} // Espaçamento entre os slides
         slidesPerView={3} // Número de slides visíveis
         // Adicione outras configurações do Swiper conforme necessário
       >
-        {Object.keys(serviceItems).map((key, index) => (
+        {Object.keys(serviceItems).filter(key => key.startsWith('card')).map((key, index) => (
           <SwiperSlide key={index}>
             <div
               className="service-item"
@@ -24,7 +24,8 @@ const ServiceSection = () => {
             >
               <h3>{t(`ServicePreview.${key}.title`)}</h3>
               <p>{t(`ServicePreview.${key}.text`)}</p>
-              <a href={serviceItems[key].link}>{t('ServicePreview.cardLink')}</a>
+              {/* Aqui foi corrigido para usar a chave 'link' dentro de cada card */}
+              <a href={serviceItems[key].link}>{t(`ServicePreview.${key}.link`)}</a>
             </div>
           </SwiperSlide>
         ))}

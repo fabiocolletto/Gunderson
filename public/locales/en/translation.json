@@ -1,3 +1,4 @@
+
 {
   "header": {
     "homepage": "Home",
@@ -11,7 +12,6 @@
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
-
   "ServicePreview": {
     "header": "Our Expertise",
     "cardLink": "Discover More",
@@ -19,19 +19,19 @@
       "title": "Innovative Shipbuilding",
       "text": "Pioneering in advanced marine engineering.",
       "background": "url_to_background_image_1",
-      "cardLink": "Learn More about Shipbuilding"
+      "link": "Learn More about Shipbuilding"
     },
     "card2": {
       "title": "Sustainable Practices",
       "text": "Committed to eco-friendly marine solutions.",
       "background": "url_to_background_image_2",
-      "cardLink": "Explore our Sustainability"
+      "link": "Explore our Sustainability"
     },
     "card3": {
       "title": "Custom Solutions",
       "text": "Tailored services to meet unique marine needs.",
       "background": "url_to_background_image_3",
-      "cardLink": "Custom Services Information"
+      "link": "Custom Services Information"
     }
-  }  
-}
+  }
+}  

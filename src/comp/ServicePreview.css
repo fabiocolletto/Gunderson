@@ -5,22 +5,22 @@
   padding: 20px; /* Espaçamento interno */
   overflow-x: hidden; /* Esconde overflow horizontal */
   display: flex;
-  justify-content: center;
+  justify-content: space-around; /* Distribui os cards igualmente com espaçamento ao redor */
 }
 
 .service-item {
   background-size: cover; /* Imagem de fundo cobre todo o espaço */
   background-position: center; /* Centraliza imagem de fundo */
-  width: calc(30% - 20px); /* Largura do card ajustada com espaçamento */
-  height: calc((30% - 20px) * 4 / 3); /* Altura para manter proporção de 4:3 */
-  margin-right: 20px; /* Espaçamento entre cards */
+  width: 25vw; /* Largura ajustada para 3 cards com espaçamento de 20px */
+  height:30vw; /* Altura para manter proporção de 4:3 */
   display: flex; /* Flexbox para alinhamento interno */
   flex-direction: column; /* Itens internos organizados verticalmente */
   align-items: flex-start; /* Alinha itens internos à esquerda */
-  border-radius: 10px; /* Bordas arredondadas */
+  border-radius: 20px; /* Bordas arredondadas */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento */
-  color: rgba(217, 54, 54, 0.8); /* Cor do texto */
-  padding: 20px; /* Espaçamento interno */
+  color: rgba(0, 0, 0, 0.8); /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+  margin: 0 20px; /* Margem horizontal para espaçamento entre os cards */
 }
 
 .service-item h3, .service-item p, .service-item a {
@@ -28,9 +28,14 @@
 }
 
 @media (max-width: 768px) {
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
   .service-item {
-    width: 80vw; /* Ajusta largura para viewport */
-    height: calc(80vw * 4 / 3); /* Ajusta altura para manter proporção */
+    width: 80vw; /* Largura para telas menores */
+    height: calc(80vw * 4 / 3); /* Altura para manter proporção */
+    margin-bottom: 20px; /* Espaçamento entre cards quando estão em coluna */
   }
 }
 

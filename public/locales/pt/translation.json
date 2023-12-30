@@ -12,28 +12,26 @@
     "text": "Liderando na Engenharia Marítima"
   },
   
-    "ServicePreview": {
-      "header": "Nossa Especialidade",
-      "cardLink": "Descubra Mais",
-      "card1": {
-        "title": "Construção Naval Inovadora",
-        "text": "Liderança em engenharia marítima avançada.",
-        "background": "url_para_imagem_de_fundo_1",
-        "cardLink": "Saiba Mais sobre Construção Naval"
-      },
-      "card2": {
-        "title": "Práticas Sustentáveis",
-        "text": "Compromisso com soluções marinhas ecológicas.",
-        "background": "url_para_imagem_de_fundo_2",
-        "cardLink": "Explore nossa Sustentabilidade"
-      },
-      "card3": {
-        "title": "Soluções Personalizadas",
-        "text": "Serviços sob medida para atender necessidades marítimas únicas.",
-        "background": "url_para_imagem_de_fundo_3",
-        "cardLink": "Informações sobre Serviços Personalizados"
-      }
-    
+  "ServicePreview": {
+    "header": "Nossa Especialização",
+    "cardLink": "Descubra Mais",
+    "card1": {
+      "title": "Construção Naval Inovadora",
+      "text": "Pioneiros em engenharia marinha avançada.",
+      "background": "url_para_imagem_de_fundo_1",
+      "cardLink": "Saiba Mais sobre Construção Naval"
+    },
+    "card2": {
+      "title": "Práticas Sustentáveis",
+      "text": "Compromisso com soluções marinhas ecológicas.",
+      "background": "url_para_imagem_de_fundo_2",
+      "cardLink": "Explore nossa Sustentabilidade"
+    },
+    "card3": {
+      "title": "Soluções Personalizadas",
+      "text": "Serviços sob medida para atender necessidades marinhas únicas.",
+      "background": "url_para_imagem_de_fundo_3",
+      "cardLink": "Informação sobre Serviços Personalizados"
+    }
   }
-  
-}
+}  
