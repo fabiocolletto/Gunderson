@@ -1,49 +1,39 @@
 {
   "header": {
-    "homepage": "Início",
+    "homepage": "Página Inicial",
     "aboutUs": "Sobre Nós",
     "services": "Serviços Marítimos",
     "contact": "Contato",
     "news": "Notícias Marítimas",
     "darkMode": "Modo Escuro",
-    "logoAlt": "Logotipo da Gunderson Marine"
+    "logoAlt": "Logo da Gunderson Marine"
   },
   "mainCover": {
-    "text": "Liderando o Caminho em Engenharia Marítima"
+    "text": "Liderando na Engenharia Marítima"
   },
-  "ServicePreview": {
-    "header": "Nossa Expertise",
-    "card1": {
-      "title": "Construção Naval",
-      "text": "Soluções inovadoras em construção naval para as necessidades marítimas modernas."
-    },
-    "card2": {
-      "title": "Reparo Marítimo",
-      "text": "Serviços abrangentes de reparo para todos os tipos de embarcações marítimas."
-    },
-    "card3": {
-      "title": "Engenharia Personalizada",
-      "text": "Soluções de engenharia sob medida para atender desafios marítimos específicos."
-    },
-    "cardLink": "Descubra Mais"
-  },
-  "NewsPreview": {
-    "header": "Últimas Novidades Marítimas",
-    "readMore": "Leia mais",
-    "cards": [
-      {
-        "title": "Iniciativas Ecológicas",
-        "text": "Gunderson Marine lidera com novas tecnologias de navegação ecológicas.",
-        "link": "",
-        "background": "../images/service-card1.png"
+  
+    "ServicePreview": {
+      "header": "Nossa Especialidade",
+      "cardLink": "Descubra Mais",
+      "card1": {
+        "title": "Construção Naval Inovadora",
+        "text": "Liderança em engenharia marítima avançada.",
+        "background": "url_para_imagem_de_fundo_1",
+        "cardLink": "Saiba Mais sobre Construção Naval"
       },
-      {
-        "title": "Designs Premiados",
-        "text": "Nossos designs inovadores de navios recebem aclamação internacional.",
-        "link": "",
-        "background": "../images/service-card2.png"
+      "card2": {
+        "title": "Práticas Sustentáveis",
+        "text": "Compromisso com soluções marinhas ecológicas.",
+        "background": "url_para_imagem_de_fundo_2",
+        "cardLink": "Explore nossa Sustentabilidade"
+      },
+      "card3": {
+        "title": "Soluções Personalizadas",
+        "text": "Serviços sob medida para atender necessidades marítimas únicas.",
+        "background": "url_para_imagem_de_fundo_3",
+        "cardLink": "Informações sobre Serviços Personalizados"
       }
-    ]
+    
   }
+  
 }
-

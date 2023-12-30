@@ -1,51 +1,47 @@
-import React, { useRef, useState, useEffect } from 'react';
+// NewsPreview.js
+import React, { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './NewsPreview.css';
 
 const NewsPreview = () => {
   const { t } = useTranslation();
-  const newsCards = t('NewsPreview.cards', { returnObjects: true });
-  const containerRef = useRef(null);
-  const [showScrollLeft, setShowScrollLeft] = useState(false);
-  const [showScrollRight, setShowScrollRight] = useState(true);
-
-  useEffect(() => {
-    if (Array.isArray(newsCards)) {
-      // Códigos de atualização de estado ou efeitos colaterais
-      // Relacionados ao carregamento de newsCards
-    }
-  }, [newsCards]);
+  const newsItems = t('News.newsItems', { returnObjects: true });
+  const carouselRef = useRef(null);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const scroll = (direction) => {
-    const { current } = containerRef;
+    const { current } = carouselRef;
     if (current) {
-      const scrollAmount = direction === 'left' ? -current.offsetWidth : current.offsetWidth;
+      const scrollAmount = direction === 'left' ? -300 : 300;
       current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   };
 
-  const checkScrollButtons = () => {
-    const { current } = containerRef;
-    if (current) {
-      setShowScrollLeft(current.scrollLeft > 0);
-      setShowScrollRight(current.scrollLeft < current.scrollWidth - current.offsetWidth);
-    }
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
   };
 
   return (
-    <div className="news-preview">
-      <h2>{t('NewsPreview.header')}</h2>
-      <div className="cards-container" ref={containerRef} onScroll={checkScrollButtons}>
-        {Array.isArray(newsCards) && newsCards.map((news, index) => (
-          <div className="news-card" key={index} style={{ backgroundImage: `url(${news.background})` }}>
+    <div className={`news-container ${isDarkMode ? 'dark-mode' : ''}`}>
+      <h2>{t('News.header')}</h2>
+      <button className="scroll-button left" onClick={() => scroll('left')}>&lt;</button>
+      <div className="news-preview" ref={carouselRef}>
+        {newsItems.map((news, index) => (
+          <div
+            key={index}
+            className={`news-item ${isDarkMode ? 'dark-mode' : ''}`}
+            style={{ backgroundImage: `url(${news.image})` }}
+          >
             <h3>{news.title}</h3>
             <p>{news.text}</p>
-            <a href={news.link}>{t('NewsPreview.readMore')}</a>
+            <a href={news.link}>{t('News.readMore')}</a>
           </div>
         ))}
       </div>
-      {showScrollLeft && <button className="scroll-buttonn left" onClick={() => scroll('left')}>◀</button>}
-      {showScrollRight && <button className="scroll-buttonn right" onClick={() => scroll('right')}>▶</button>}
+      <button className="scroll-button right" onClick={() => scroll('right')}>&gt;</button>
+      <div className="dark-mode-toggle" onClick={toggleDarkMode}>
+        {isDarkMode ? '☀️' : '🌙'}
+      </div>
     </div>
   );
 };

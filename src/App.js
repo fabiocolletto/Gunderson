@@ -2,7 +2,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import TransparentHeader from './comp/TransparentHeader';
-import HomePage from './pages/HomePage';
+import MainCover from './comp/MainCover';
+import ServicePreview from './comp/ServicePreview';
+
+
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -14,15 +17,18 @@ function App() {
       <Route path="/" element={
         <>
           <TransparentHeader />
-          <HomePage />
+          <MainCover />
+          <ServicePreview />
+
+
         </>
       } />
       <Route path="/aboutus" element={
         <>
           <TransparentHeader />
           <AboutUs />
+
         </>
-        
       } />
       <Route path="/services" element={
         <>
@@ -40,9 +46,7 @@ function App() {
           <News />
         </>
       } />
-      {/* Adicione outras rotas conforme necessário, incluindo o Header se desejado */}
     </Routes>
   );
 }
-
-export default App;
+export default App

@@ -1,93 +1,44 @@
 /* ServicePreview.css */
-/* Container principal para a seção de visualização do serviço */
-.service-preview {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
 
-/* Container que agrupa todos os cards de serviço */
-.cards-container {
+.service-container {
+  width: 100%; /* Largura total */
+  padding: 20px; /* Espaçamento interno */
+  overflow-x: hidden; /* Esconde overflow horizontal */
   display: flex;
-  flex-direction: row;
-  justify-content: center; /* Alterado para center para centralizar os cards */
-  flex-wrap: wrap; /* Permite que os cards se ajustem conforme o tamanho da tela */
-  gap: 2vw; /* Espaçamento entre os cards, substitui a margem */
-  align-items: flex-start;
-  height: auto;
-  padding: 0;
-  list-style: none;
-  width: 100%;
-}
-
-/* Estilos aplicados a cada card de serviço */
-.card {
-  background-size: cover;
-  background-position: center;
-  width: calc(25vw); /* Subtrai a margem do cálculo da largura */
-  height: calc((25vw) / .75); /* Mantém a proporção 3:4 */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: rgba(255, 255, 255, 0.8);
-  position: relative;
-  overflow: hidden;
 }
 
-/* Estilos para o título dentro do card */
-.card h3 {
-  font-size: 1.5vw; /* Tamanho da fonte do título baseado na largura da tela */
-  position: absolute; /* Posiciona o título de forma absoluta */
-  top: 20px; /* Posiciona no topo do card */
-  left: 20px; /* Posiciona à esquerda do card */
-  word-wrap: break-word; /* Quebra palavras longas para evitar transbordamento */
+.service-item {
+  background-size: cover; /* Imagem de fundo cobre todo o espaço */
+  background-position: center; /* Centraliza imagem de fundo */
+  width: calc(30% - 20px); /* Largura do card ajustada com espaçamento */
+  height: calc((30% - 20px) * 4 / 3); /* Altura para manter proporção de 4:3 */
+  margin-right: 20px; /* Espaçamento entre cards */
+  display: flex; /* Flexbox para alinhamento interno */
+  flex-direction: column; /* Itens internos organizados verticalmente */
+  align-items: flex-start; /* Alinha itens internos à esquerda */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento */
+  color: rgba(217, 54, 54, 0.8); /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
 }
 
-/* Estilos para o texto dentro do card */
-.card p {
-  font-size: 1vw; /* Tamanho da fonte do texto baseado na largura da tela */
-  position: absolute; /* Posiciona o texto de forma absoluta */
-  top: 50%; /* Centraliza verticalmente */
-  transform: translateY(-50%); /* Ajusta o posicionamento vertical */
-  left: 20px; /* Posiciona à esquerda do card com espaço */
-  word-wrap: break-word; /* Quebra palavras longas para evitar transbordamento */
-  white-space: normal; /* Espaços e quebras de linha padrão */
+.service-item h3, .service-item p, .service-item a {
+  margin-bottom: 10px;
 }
 
-/* Estilos para o link dentro do card */
-.card a {
-  position: absolute; /* Posiciona o link de forma absoluta */
-  bottom: 20px; /* Posiciona na parte inferior do card */
-  right: 20px; /* Posiciona à direita do card */
-  color: orange; /* Cor do link */
-  font-size: 1vw; /* Tamanho da fonte do link baseado na largura da tela */
-}
-
-/* Estilos para dispositivos com tela de até 768px de largura */
 @media (max-width: 768px) {
-  .card {
-    width: 80vw; /* Ajusta a largura dos cards para 80% da largura da tela */
-    height: calc(80vw / 0.75); /* Ajusta a altura para manter a proporção 3:4 */
-  }
-
-  .card h3, .card p, .card a {
-    font-size: 5vw; /* Aumenta o tamanho da fonte para visibilidade */
+  .service-item {
+    width: 80vw; /* Ajusta largura para viewport */
+    height: calc(80vw * 4 / 3); /* Ajusta altura para manter proporção */
   }
 }
 
-/* Estilos para o modo escuro */
-.dark-mode .service-preview {
-  background-color: rgba(0, 0, 0, 1); /* Fundo escuro para o modo noturno */
-  color: var(--logo-green); /* Cor do texto para o modo noturno */
+.dark-mode .service-container {
+  background-color: #343a40; /* Cor de fundo para modo noturno */
 }
 
-.dark-mode .card {
-  background-color: rgba(255, 255, 255, 0.1); /* Fundo claro e translúcido para os cards em modo escuro */
-  color: var(--logo-green); /* Cor do texto para o modo noturno */
+.dark-mode .service-item {
+  background-color: #495057; /* Cor de fundo dos cards para modo noturno */
+  color: #f8f9fa; /* Cor do texto para modo noturno */
 }
