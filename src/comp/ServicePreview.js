@@ -1,9 +1,10 @@
-/* ServicePreview.js */
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide, Navigation } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/navigation'; // Importação do CSS de navegação
 import './ServicePreview.css'; // Importando o CSS personalizado
+
 
 const ServiceSection = () => {
   const { t, i18n } = useTranslation();
@@ -14,7 +15,7 @@ const ServiceSection = () => {
       <Swiper
         spaceBetween={5} // Espaçamento entre os slides
         slidesPerView={3} // Número de slides visíveis
-        // Outras configurações do Swiper podem ser adicionadas aqui
+        navigation={true} // Habilita a navegação
       >
         {Object.keys(serviceItems).filter(key => key.startsWith('card')).map((key, index) => (
           <SwiperSlide key={index}>
@@ -34,4 +35,3 @@ const ServiceSection = () => {
 };
 
 export default ServiceSection;
-

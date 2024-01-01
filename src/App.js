@@ -19,15 +19,12 @@ function App() {
           <TransparentHeader />
           <MainCover />
           <ServicePreview />
-
-
         </>
       } />
       <Route path="/aboutus" element={
         <>
           <TransparentHeader />
           <AboutUs />
-
         </>
       } />
       <Route path="/services" element={
@@ -38,16 +35,27 @@ function App() {
       } />
       <Route path="/contact" element={
         <>
+          <TransparentHeader />
           <Contact />
         </>
       } />
       <Route path="/news" element={
         <>
+          <TransparentHeader />
           <News />
+        </>
+      } />
+      <Route path="/homepage" element={
+        <>
+          <TransparentHeader />
+          <MainCover />
+          <ServicePreview />
         </>
       } />
     </Routes>
   );
 }
 export default App
+
+
 
