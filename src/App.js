@@ -1,36 +1,40 @@
-import React, { startTransition } from 'react';
+import React from 'react';
+import { ThemeProvider } from './comp/ThemeContext'; // Certifique-se de que o caminho para ThemeContext.js está correto
 import { Routes, Route } from 'react-router-dom';
-import TransparentHeader from './comp/TransparentHeader';
-import MainCover from './comp/MainCover';
+import Header from './comp/Header'; // Verifique o caminho correto
+import MainCover from './comp/MainCover'; // Verifique o caminho correto
+import Cards from './comp/Cards'; // Verifique o caminho correto
 
-import AboutUs from './pages/AboutUs';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import News from './pages/News';
+import AboutUs from './pages/AboutUs'; // Verifique o caminho correto
+import Services from './pages/Services'; // Verifique o caminho correto
+import Contact from './pages/Contact'; // Verifique o caminho correto
+import News from './pages/News'; // Verifique o caminho correto
 
 function App() {
   return (
-    <div>
-      <TransparentHeader />
-      <Routes>
-        <Route path="/" element={
-          <>
-            <MainCover />
+    <ThemeProvider>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <MainCover />
+              <Cards />
 
-          </>
-        } />
-        <Route path="/homepage" element={
-          <>
-            <MainCover />
-
-          </>
-        } />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/news" element={<News />} />
-      </Routes>
-    </div>
+            </>
+          } />
+          <Route path="/homepage" element={
+            <>
+              <MainCover />
+            </>
+          } />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/news" element={<News />} />
+        </Routes>
+      </div>
+    </ThemeProvider>
   );
 }
 

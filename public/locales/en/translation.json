@@ -1,5 +1,5 @@
 {
-    "header": {
+  "header": {
     "homepage": "Home",
     "aboutUs": "About Us",
     "services": "Marine Services",
@@ -8,36 +8,29 @@
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
-
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
-  
-  "ServicePreview": {
-    "card1": {
-      "title": "Advanced Navigation",
-      "text": "Leading-edge technology for precise marine navigation.",
-      "link": "link_to_detailed_navigation_info",
-      "cardLink": "Learn More about Navigation",
-      "background": "/images/service/bg-card1.svg"
-    },
-      "card2": {
-        "title": "Eco-Friendly Operations",
-        "text": "Embracing sustainable practices in maritime activities.",
-        "link": "link_to_eco_friendly_operations",
-        "cardLink": "Discover Our Green Initiatives",
-        "background": "/images/service/bg-card2.svg"
-
-      },
-      "card3": {
-        "title": "Safety Measures",
-        "text": "Prioritizing safety in all our marine operations.",
-        "link": "link_to_safety_measures",
-        "cardLink": "Safety Protocols and Standards",
-        "background": "/images/service/bg-card3.svg"
-
-      }
-    }
+  "sectionTitle": "Our Featured Services", 
+  "card1": {
+    "title": "Title for Card 1",
+    "text": "Description for Card 1",
+    "learnMore": "Learn More",
+    "backgroundImg": "path/to/card1_background.jpg"
+  },
+  "card2": {
+    "title": "Title for Card 2",
+    "text": "Description for Card 2",
+    "learnMore": "Learn More",
+    "backgroundImg": "path/to/card2_background.jpg"
+  },
+  "card3": {
+    "title": "Title for Card 3",
+    "text": "Description for Card 3",
+    "learnMore": "Learn More",
+    "backgroundImg": "path/to/card3_background.jpg"
+  },
+  "common": {
+    "learnMore": "Learn More"
   }
-
-
+}
