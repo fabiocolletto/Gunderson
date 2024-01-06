@@ -1,7 +1,7 @@
 {
   "header": {
     "homepage": "Inicio",
-    "aboutUs": "Acerca de Nosotros",
+    "aboutUs": "Sobre Nosotros",
     "services": "Servicios Marítimos",
     "contact": "Contacto",
     "news": "Noticias Marítimas",
@@ -12,37 +12,40 @@
     "text": "Liderando el Camino en Ingeniería Marítima"
   },
   "ServicePreview": {
-    "header": "Nuestra Experiencia",
     "card1": {
-      "title": "Construcción Naval",
-      "text": "Soluciones innovadoras en construcción naval para las necesidades marítimas modernas."
+      "title": "Navegación Avanzada",
+      "text": "Tecnología de vanguardia para una navegación marítima precisa.",
+      "link": "enlace_a_informacion_detallada_de_navegacion",
+      "cardLink": "Aprenda Más sobre Navegación",
+      "background": "./images/service/bg-card1.svg"
     },
     "card2": {
-      "title": "Reparación Marítima",
-      "text": "Servicios completos de reparación para todo tipo de embarcaciones marinas."
+      "title": "Operaciones Ecológicas",
+      "text": "Abrazando prácticas sostenibles en actividades marítimas.",
+      "link": "enlace_a_operaciones_ecologicas",
+      "cardLink": "Descubra Nuestras Iniciativas Verdes",
+      "background": "caminho_para_imagem_de_fundo_do_card2"
     },
     "card3": {
-      "title": "Ingeniería Personalizada",
-      "text": "Soluciones de ingeniería a medida para enfrentar desafíos marítimos específicos."
+      "title": "Medidas de Seguridad",
+      "text": "Priorizando la seguridad en todas nuestras operaciones marítimas.",
+      "link": "enlace_a_medidas_de_seguridad",
+      "cardLink": "Protocolos y Estándares de Seguridad",
+      "background": "caminho_para_imagem_de_fundo_do_card3"
     },
-    "cardLink": "Descubre Más"
-  },
-  "NewsPreview": {
-    "header": "Últimas Noticias Marítimas",
-    "readMore": "Leer más",
-    "cards": [
-      {
-        "title": "Iniciativas Ecológicas",
-        "text": "Gunderson Marine lidera con nuevas tecnologías de navegación ecológicas.",
-        "link": "",
-        "background": "../images/service-card1.png"
-      },
-      {
-        "title": "Diseños Galardonados",
-        "text": "Nuestros diseños innovadores de barcos reciben aclamación internacional.",
-        "link": "",
-        "background": "../images/service-card2.png"
-      }
-    ]
+    "card4": {
+      "title": "Ingeniería a Medida",
+      "text": "Soluciones de ingeniería a medida para necesidades especializadas.",
+      "link": "enlace_a_ingenieria_a_medida",
+      "cardLink": "Soluciones de Ingeniería Personalizadas",
+      "background": "caminho_para_imagem_de_fundo_do_card4"
+    },
+    "card5": {
+      "title": "Formación Marítima",
+      "text": "Programas de formación completos para profesionales marítimos.",
+      "link": "enlace_a_formacion_maritima",
+      "cardLink": "Explore Programas de Formación",
+      "background": "caminho_para_imagem_de_fundo_do_card5"
+    }
   }
 }

@@ -12,38 +12,23 @@
     "text": "Liderando o Caminho em Engenharia Marítima"
   },
   "ServicePreview": {
-    "header": "Nossa Expertise",
     "card1": {
-      "title": "Construção Naval",
-      "text": "Soluções inovadoras em construção naval para as necessidades marítimas modernas."
+      "title": "Navegação Avançada",
+      "text": "Tecnologia de ponta para navegação marítima precisa.",
+      "link": "link_para_informacoes_detalhadas_de_navegacao",
+      "cardLink": "Saiba Mais sobre Navegação"
     },
     "card2": {
-      "title": "Reparo Marítimo",
-      "text": "Serviços abrangentes de reparo para todos os tipos de embarcações marítimas."
+      "title": "Operações Ecológicas",
+      "text": "Adotando práticas sustentáveis em atividades marítimas.",
+      "link": "link_para_operacoes_ecologicas",
+      "cardLink": "Descubra Nossas Iniciativas Verdes"
     },
     "card3": {
-      "title": "Engenharia Personalizada",
-      "text": "Soluções de engenharia sob medida para atender desafios marítimos específicos."
-    },
-    "cardLink": "Descubra Mais"
-  },
-  "NewsPreview": {
-    "header": "Últimas Novidades Marítimas",
-    "readMore": "Leia mais",
-    "cards": [
-      {
-        "title": "Iniciativas Ecológicas",
-        "text": "Gunderson Marine lidera com novas tecnologias de navegação ecológicas.",
-        "link": "",
-        "background": "../images/service-card1.png"
-      },
-      {
-        "title": "Designs Premiados",
-        "text": "Nossos designs inovadores de navios recebem aclamação internacional.",
-        "link": "",
-        "background": "../images/service-card2.png"
-      }
-    ]
+      "title": "Medidas de Segurança",
+      "text": "Priorizando a segurança em todas as nossas operações marítimas.",
+      "link": "link_para_medidas_de_seguranca",
+      "cardLink": "Protocolos e Padrões de Segurança"
+    }
   }
 }
-

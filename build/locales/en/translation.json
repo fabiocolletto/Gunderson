@@ -1,5 +1,5 @@
 {
-  "header": {
+    "header": {
     "homepage": "Home",
     "aboutUs": "About Us",
     "services": "Marine Services",
@@ -8,42 +8,36 @@
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
+
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
+  
   "ServicePreview": {
-    "header": "Our Expertise",
     "card1": {
-      "title": "Shipbuilding",
-      "text": "Innovative shipbuilding solutions for modern maritime needs.",
-      "background": "../images/service-card1.png"
+      "title": "Advanced Navigation",
+      "text": "Leading-edge technology for precise marine navigation.",
+      "link": "link_to_detailed_navigation_info",
+      "cardLink": "Learn More about Navigation",
+      "background": "/images/service/bg-card1.svg"
     },
-    "card2": {
-      "title": "Marine Repair",
-      "text": "Comprehensive repair services for all types of marine vessels.",
-      "background": "../images/service-card2.png"
-    },
-    "card3": {
-      "title": "Custom Engineering",
-      "text": "Tailored engineering solutions to meet specific maritime challenges.",
-      "background": "../images/service-card3.png"
-    },
-    "cardLink": "Discover More"
-  },
-  "NewsPreview": {
-    "header": "Latest Marine Insights",
-    "readMore": "Read more",
-    "cards": [
-      {
-        "title": "Eco-Friendly Initiatives",
-        "text": "Gunderson Marine leads with new eco-friendly shipping technologies.",
-        "background": "./images/service-card1.png"
+      "card2": {
+        "title": "Eco-Friendly Operations",
+        "text": "Embracing sustainable practices in maritime activities.",
+        "link": "link_to_eco_friendly_operations",
+        "cardLink": "Discover Our Green Initiatives",
+        "background": "/images/service/bg-card2.svg"
+
       },
-      {
-        "title": "Award-Winning Designs",
-        "text": "Our innovative ship designs receive international acclaim.",
-        "background": "../images/service-card2.png"
+      "card3": {
+        "title": "Safety Measures",
+        "text": "Prioritizing safety in all our marine operations.",
+        "link": "link_to_safety_measures",
+        "cardLink": "Safety Protocols and Standards",
+        "background": "/images/service/bg-card3.svg"
+
       }
-    ]
+    }
   }
-}
+
+
