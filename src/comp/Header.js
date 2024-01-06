@@ -1,3 +1,4 @@
+/* Script Header.js  */
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -29,6 +30,8 @@ const Header = () => {
         <button onClick={() => changeLanguage('en')}>EN</button>
         <button onClick={() => changeLanguage('es')}>ES</button>
         <button onClick={() => changeLanguage('pt')}>PT</button>
+        <button onClick={() => changeLanguage('vi')}>VI</button>
+
         <button onClick={toggleDarkMode}>
           {darkMode ? '☀️' : '🌙'}
         </button>

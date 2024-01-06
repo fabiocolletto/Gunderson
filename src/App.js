@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './comp/Header'; // Verifique o caminho correto
 import MainCover from './comp/MainCover'; // Verifique o caminho correto
 import Cards from './comp/Cards'; // Verifique o caminho correto
+import Cards2 from './comp/Cards2'; // Verifique o caminho correto
 
 import AboutUs from './pages/AboutUs'; // Verifique o caminho correto
 import Services from './pages/Services'; // Verifique o caminho correto
@@ -20,6 +21,7 @@ function App() {
             <>
               <MainCover />
               <Cards />
+              <Cards2 />
 
             </>
           } />

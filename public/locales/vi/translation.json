@@ -1,0 +1,71 @@
+{
+  "header": {
+    "homepage": "Trang chủ",
+    "aboutUs": "Về chúng tôi",
+    "services": "Dịch vụ Hàng hải",
+    "contact": "Liên hệ",
+    "news": "Tin tức Hàng hải",
+    "darkMode": "Chế độ Tối",
+    "logoAlt": "Logo của Gunderson Marine"
+  },
+  "mainCover": {
+    "text": "Dẫn đầu trong Lĩnh vực Kỹ thuật Hàng hải"
+  },
+  "cards": {
+    "sectionTitle": "Dịch vụ của Chúng tôi",
+    "card1": {
+      "title": "Xây dựng Tàu biển",
+      "text": "Chuyên gia trong việc xây dựng tàu biển chất lượng cao.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnh1.jpg"
+    },
+    "card2": {
+      "title": "Sửa chữa và Bảo dưỡng",
+      "text": "Dịch vụ sửa chữa và bảo dưỡng hàng hải đầy đủ.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnh2.jpg"
+    },
+    "card3": {
+      "title": "Thiết kế Riêng",
+      "text": "Các dự án sáng tạo và cá nhân hóa cho nhu cầu hàng hải của bạn.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnh3.jpg"
+    }
+  },
+  "newsCards": {
+    "sectionTitle": "Tin tức Mới nhất",
+    "card1": {
+      "title": "Đổi mới trong Công nghệ Hàng hải",
+      "text": "Gunderson Marine dẫn đầu với các công nghệ bền vững mới.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnhTinTức1.jpg"
+    },
+    "card2": {
+      "title": "Thông báo về Quan hệ Đối tác Chiến lược",
+      "text": "Gunderson Marine công bố một quan hệ đối tác lớn trong ngành hàng hải.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnhTinTức2.jpg"
+    },
+    "card3": {
+      "title": "Dự án Tàu biển Cách mạng",
+      "text": "Một dự án tàu mới đang định hình tương lai của vận tải hàng hải.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnhTinTức3.jpg"
+    },
+    "card4": {
+      "title": "Cam kết với Sự bền vững",
+      "text": "Gunderson Marine cam kết thực hiện các phương pháp bền vững với môi trường.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnhTinTức4.jpg"
+    },
+    "card5": {
+      "title": "Sự Mở rộng Toàn cầu của Gunderson",
+      "text": "Gunderson Marine mở rộng hoạt động kinh doanh ra thị trường quốc tế mới.",
+      "learnMore": "Tìm hiểu thêm",
+      "backgroundImg": "đường_dẫn/tới/hình_ảnhTinTức5.jpg"
+    }
+  },
+  "common": {
+    "learnMore": "Tìm hiểu thêm"
+  }
+}
