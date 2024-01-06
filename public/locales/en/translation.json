@@ -14,35 +14,28 @@
   },
   
   "ServicePreview": {
-      "card1": {
-        "title": "Advanced Navigation",
-        "text": "Leading-edge technology for precise marine navigation.",
-        "link": "link_to_detailed_navigation_info",
-        "cardLink": "Learn More about Navigation"
-      },
+    "card1": {
+      "title": "Advanced Navigation",
+      "text": "Leading-edge technology for precise marine navigation.",
+      "link": "link_to_detailed_navigation_info",
+      "cardLink": "Learn More about Navigation",
+      "background": "/images/service/bg-card1.svg"
+    },
       "card2": {
         "title": "Eco-Friendly Operations",
         "text": "Embracing sustainable practices in maritime activities.",
         "link": "link_to_eco_friendly_operations",
-        "cardLink": "Discover Our Green Initiatives"
+        "cardLink": "Discover Our Green Initiatives",
+        "background": "/images/service/bg-card2.svg"
+
       },
       "card3": {
         "title": "Safety Measures",
         "text": "Prioritizing safety in all our marine operations.",
         "link": "link_to_safety_measures",
-        "cardLink": "Safety Protocols and Standards"
-      },
-      "card4": {
-        "title": "Custom Engineering",
-        "text": "Bespoke engineering solutions for specialized needs.",
-        "link": "link_to_custom_engineering",
-        "cardLink": "Customized Engineering Solutions"
-      },
-      "card5": {
-        "title": "Maritime Training",
-        "text": "Comprehensive training programs for marine professionals.",
-        "link": "link_to_maritime_training",
-        "cardLink": "Explore Training Programs"
+        "cardLink": "Safety Protocols and Standards",
+        "background": "/images/service/bg-card3.svg"
+
       }
     }
   }

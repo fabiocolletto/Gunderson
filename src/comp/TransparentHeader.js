@@ -1,10 +1,8 @@
-/* TransparentHeader.js */
-
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Importação do Link do react-router-dom
 import './TransparentHeader.css';
 import logo from '../images/logo-green.png'; // Caminho correto para a logo
 import { useTranslation } from 'react-i18next';
-
 
 const TransparentHeader = () => {
   const { t, i18n } = useTranslation();
@@ -30,11 +28,11 @@ const TransparentHeader = () => {
       </div>
 
       <nav className="navigation-links">
-        <a href="/homepage">{t('header.homepage')}</a>
-        <a href="/aboutus">{t('header.aboutUs')}</a>
-        <a href="/services">{t('header.services')}</a>
-        <a href="/contact">{t('header.contact')}</a>
-        <a href="/news">{t('header.news')}</a>
+        <Link to="/homepage">{t('header.homepage')}</Link>
+        <Link to="/aboutus">{t('header.aboutUs')}</Link>
+        <Link to="/services">{t('header.services')}</Link>
+        <Link to="/contact">{t('header.contact')}</Link>
+        <Link to="/news">{t('header.news')}</Link>
       </nav>
 
       <div className="settings">

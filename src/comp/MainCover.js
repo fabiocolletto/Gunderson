@@ -1,8 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './MainCover.css';
-import backgroundImage from '../images/homepage.jpg'; 
-
+import backgroundImage from '../images/homepage.jpg'; // Confirme o caminho da imagem
 
 const MainCover = () => {
   const { t } = useTranslation();

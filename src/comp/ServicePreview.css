@@ -1,41 +1,39 @@
-/* ServicePreview.css */
-
 .service-container {
-  width: 100%; /* Largura total */
-  padding: 20px; /* Espaçamento interno */
-  overflow-x: hidden; /* Esconde overflow horizontal */
+  width: 100%;
+  padding: 20px;
+  overflow-x: hidden;
   display: flex;
-  justify-content: space-around; /* Distribui os cards igualmente com espaçamento ao redor */
+  justify-content: space-around;
 }
 
 .service-item {
-  background-size: cover; /* Imagem de fundo cobre todo o espaço */
-  background-position: center; /* Centraliza imagem de fundo */
-  width: 25vw; /* Largura ajustada para 3 cards com espaçamento de 20px */
-  height: 30vw; /* Altura para manter proporção de 4:3 */
+  background-size: cover;
+  background-position: center;
+  width: 25vw;
+  height: 30vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Distribui espaço entre título, texto e link */
-  align-items: flex-start; /* Alinha itens internos à esquerda */
-  border-radius: 20px; /* Bordas arredondadas */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombreamento */
-  color: rgba(0, 0, 0, 0.8); /* Cor do texto */
-  padding: 10px; /* Espaçamento interno */
-  margin: 0 20px; /* Margem horizontal para espaçamento entre os cards */
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin: 0 20px;
 }
 
 .service-item h3 {
-  align-self: flex-start; /* Alinha o título na parte superior esquerda */
+  align-self: flex-start;
   margin-bottom: 10px;
 }
 
 .service-item p {
-  align-self: center; /* Centraliza o texto */
+  align-self: center;
   margin-bottom: 10px;
 }
 
 .service-item a {
-  align-self: flex-end; /* Alinha o link na parte inferior direita */
+  align-self: flex-end;
   margin-bottom: 10px;
 }
 
@@ -45,17 +43,17 @@
     align-items: center;
   }
   .service-item {
-    width: 80vw; /* Largura para telas menores */
-    height: calc(80vw * 4 / 3); /* Altura para manter proporção */
-    margin-bottom: 20px; /* Espaçamento entre cards quando estão em coluna */
+    width: 80vw;
+    height: calc(80vw * 4 / 3);
+    margin-bottom: 20px;
   }
 }
 
 .dark-mode .service-container {
-  background-color: #343a40; /* Cor de fundo para modo noturno */
+  background-color: #343a40;
 }
 
 .dark-mode .service-item {
-  background-color: #495057; /* Cor de fundo dos cards para modo noturno */
-  color: #f8f9fa; /* Cor do texto para modo noturno */
+  background-color: #495057;
+  color: #f8f9fa;
 }
