@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../comp/Header';
 
 const Contact = () => {
   return (
