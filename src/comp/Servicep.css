@@ -1,0 +1,65 @@
+/* Estilo geral da seção dos cards */
+.cards-section {
+  text-align: center;
+}
+
+/* Título da seção de cards */
+.cards-title {
+  color: #274922;
+  font-size: 2vw;
+  padding-top: 2vw;
+}
+
+/* Container para os cards */
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Garante a responsividade */
+}
+
+/* Estilo dos cards individuais */
+.card {
+  width: 25vw;
+  height: 20vw;
+  border: 2px solid #688065;
+  padding: 1vw;
+  box-shadow: 0px 4px 8px #274922;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover; /* Garante que a imagem de fundo cubra todo o card */
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #274922;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card-link {
+  text-align: right;
+  color: #274922;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 500px) {
+  .cards-container {
+      flex-direction: column;
+      margin: 5% 3%;
+  }
+
+  .card {
+      width: 80%;
+      margin-bottom: 2em;
+  }
+}
+/* Estilos para o modo escuro */
+body.dark-mode {
+  background-color: rgb(0, 0, 0); /* Fundo levemente transparente para o modo escuro */
+  color: #f5f5dc;
+}

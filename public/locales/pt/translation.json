@@ -9,27 +9,27 @@
     "logoAlt": "Logotipo da Gunderson Marine"
   },
   "mainCover": {
-    "text": "Liderando o Caminho na Engenharia Marítima"
+    "text": "Liderando o Caminho em Engenharia Marítima"
   },
-  "cards": {
+  "servicep": {
     "sectionTitle": "Nossos Serviços",
     "card1": {
       "title": "Construção Naval",
       "text": "Especialistas em construção de embarcações de alta qualidade.",
       "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagem1.jpg"
+      "backgroundImg": "/images/servicep1.png"
     },
     "card2": {
       "title": "Reparo e Manutenção",
-      "text": "Serviços completos de reparo e manutenção marítima.",
+      "text": "Serviços marítimos completos de reparo e manutenção.",
       "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagem2.jpg"
+      "backgroundImg": "/images/servicep2.png"
     },
     "card3": {
       "title": "Design Personalizado",
       "text": "Projetos inovadores e personalizados para suas necessidades marítimas.",
       "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagem3.jpg"
+      "backgroundImg": "/images/servicep3.png"
     }
   },
   "newsCards": {
@@ -38,31 +38,7 @@
       "title": "Inovação em Tecnologia Marítima",
       "text": "Gunderson Marine lidera com novas tecnologias sustentáveis.",
       "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagemNoticia1.jpg"
-    },
-    "card2": {
-      "title": "Parceria Estratégica Anunciada",
-      "text": "Gunderson Marine anuncia uma grande parceria no setor marítimo.",
-      "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagemNoticia2.jpg"
-    },
-    "card3": {
-      "title": "Projeto Naval Revolucionário",
-      "text": "Um novo projeto de embarcação está definindo o futuro do transporte marítimo.",
-      "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagemNoticia3.jpg"
-    },
-    "card4": {
-      "title": "Compromisso com a Sustentabilidade",
-      "text": "Gunderson Marine se compromete com práticas ambientalmente sustentáveis.",
-      "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagemNoticia4.jpg"
-    },
-    "card5": {
-      "title": "Expansão Global da Gunderson",
-      "text": "Gunderson Marine expande suas operações para novos mercados internacionais.",
-      "learnMore": "Saiba Mais",
-      "backgroundImg": "caminho/para/imagemNoticia5.jpg"
+      "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
   "common": {

@@ -3,9 +3,7 @@ import { ThemeProvider } from './comp/ThemeContext'; // Certifique-se de que o c
 import { Routes, Route } from 'react-router-dom';
 import Header from './comp/Header'; // Verifique o caminho correto
 import MainCover from './comp/MainCover'; // Verifique o caminho correto
-import Cards from './comp/Cards'; // Verifique o caminho correto
-import Cards2 from './comp/Cards2'; // Verifique o caminho correto
-
+import Servicep from './comp/Servicep'; // Verifique o caminho correto
 import AboutUs from './pages/AboutUs'; // Verifique o caminho correto
 import Services from './pages/Services'; // Verifique o caminho correto
 import Contact from './pages/Contact'; // Verifique o caminho correto
@@ -20,16 +18,15 @@ function App() {
           <Route path="/" element={
             <>
               <MainCover />
-              <Cards />
-              <Cards2 />
-
+              <Servicep />
             </>
           } />
           <Route path="/homepage" element={
             <>
-              <MainCover />
-            </>
-          } />
+            <MainCover />
+            <Servicep />
+          </>
+        } />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />

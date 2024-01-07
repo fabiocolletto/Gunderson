@@ -8,64 +8,45 @@
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
+
+
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
-  "cards": {
+
+
+  "servicep": {
     "sectionTitle": "Our Services",
     "card1": {
       "title": "Shipbuilding",
       "text": "Experts in high-quality vessel construction.",
       "learnMore": "Learn More",
-      "backgroundImg": "path/to/image1.jpg"
+      "backgroundImg": "/images/servicep1.png"
     },
     "card2": {
       "title": "Repair and Maintenance",
       "text": "Complete repair and maintenance marine services.",
       "learnMore": "Learn More",
-      "backgroundImg": "path/to/image2.jpg"
+      "backgroundImg": "/images/servicep2.png"
     },
     "card3": {
       "title": "Custom Design",
       "text": "Innovative and customized projects for your maritime needs.",
       "learnMore": "Learn More",
-      "backgroundImg": "path/to/image3.jpg"
+      "backgroundImg": "/images/servicep3.png"
     }
-  },
-  "newsCards": {
+  },  "newsCards": {
     "sectionTitle": "Latest News",
     "card1": {
       "title": "Innovation in Maritime Technology",
       "text": "Gunderson Marine leads with new sustainable technologies.",
       "learnMore": "Learn More",
       "backgroundImg": "path/to/newsImage1.jpg"
-    },
-    "card2": {
-      "title": "Strategic Partnership Announced",
-      "text": "Gunderson Marine announces a major partnership in the maritime sector.",
-      "learnMore": "Learn More",
-      "backgroundImg": "path/to/newsImage2.jpg"
-    },
-    "card3": {
-      "title": "Revolutionary Naval Project",
-      "text": "A new vessel project is defining the future of maritime transport.",
-      "learnMore": "Learn More",
-      "backgroundImg": "path/to/newsImage3.jpg"
-    },
-    "card4": {
-      "title": "Commitment to Sustainability",
-      "text": "Gunderson Marine commits to environmentally sustainable practices.",
-      "learnMore": "Learn More",
-      "backgroundImg": "path/to/newsImage4.jpg"
-    },
-    "card5": {
-      "title": "Gunderson's Global Expansion",
-      "text": "Gunderson Marine expands its operations to new international markets.",
-      "learnMore": "Learn More",
-      "backgroundImg": "path/to/newsImage5.jpg"
     }
   },
   "common": {
     "learnMore": "Learn More"
   }
+
+  
 }

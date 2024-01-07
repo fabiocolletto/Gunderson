@@ -4,32 +4,32 @@
     "aboutUs": "Sobre Nosotros",
     "services": "Servicios Marítimos",
     "contact": "Contacto",
-    "news": "Noticias Marítimas",
+    "news": "Noticias Marinas",
     "darkMode": "Modo Oscuro",
-    "logoAlt": "Logo de Gunderson Marine"
+    "logoAlt": "Logotipo de Gunderson Marine"
   },
   "mainCover": {
-    "text": "Liderando el Camino en Ingeniería Marítima"
+    "text": "Liderando el Camino en Ingeniería Marina"
   },
-  "cards": {
+  "servicep": {
     "sectionTitle": "Nuestros Servicios",
     "card1": {
       "title": "Construcción Naval",
-      "text": "Expertos en construcción de barcos de alta calidad.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagen1.jpg"
+      "text": "Expertos en construcción de buques de alta calidad.",
+      "learnMore": "Aprender Más",
+      "backgroundImg": "/images/servicep1.png"
     },
     "card2": {
       "title": "Reparación y Mantenimiento",
-      "text": "Servicios completos de reparación y mantenimiento marítimo.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagen2.jpg"
+      "text": "Servicios marinos completos de reparación y mantenimiento.",
+      "learnMore": "Aprender Más",
+      "backgroundImg": "/images/servicep2.png"
     },
     "card3": {
       "title": "Diseño Personalizado",
       "text": "Proyectos innovadores y personalizados para sus necesidades marítimas.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagen3.jpg"
+      "learnMore": "Aprender Más",
+      "backgroundImg": "/images/servicep3.png"
     }
   },
   "newsCards": {
@@ -37,35 +37,11 @@
     "card1": {
       "title": "Innovación en Tecnología Marítima",
       "text": "Gunderson Marine lidera con nuevas tecnologías sostenibles.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagenNoticia1.jpg"
-    },
-    "card2": {
-      "title": "Anuncio de Asociación Estratégica",
-      "text": "Gunderson Marine anuncia una gran asociación en el sector marítimo.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagenNoticia2.jpg"
-    },
-    "card3": {
-      "title": "Proyecto Naval Revolucionario",
-      "text": "Un nuevo proyecto de embarcación está definiendo el futuro del transporte marítimo.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagenNoticia3.jpg"
-    },
-    "card4": {
-      "title": "Compromiso con la Sostenibilidad",
-      "text": "Gunderson Marine se compromete con prácticas ambientalmente sostenibles.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagenNoticia4.jpg"
-    },
-    "card5": {
-      "title": "Expansión Global de Gunderson",
-      "text": "Gunderson Marine expande sus operaciones a nuevos mercados internacionales.",
-      "learnMore": "Saber Más",
-      "backgroundImg": "ruta/a/imagenNoticia5.jpg"
+      "learnMore": "Aprender Más",
+      "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
   "common": {
-    "learnMore": "Saber Más"
+    "learnMore": "Aprender Más"
   }
 }

@@ -1,61 +1,66 @@
 /* Header.css */
-.transparent-header {
+.header {
     z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100vw;
-    height: 7vh; /* Altura do cabeçalho */
-    background-color: rgba(134, 134, 134, 0.8); /* Fundo levemente transparente para o modo claro */
+    height: 3vw; /* Altura do cabeçalho */
+    background-color: #6880565a; /* Fundo levemente transparente para o modo claro */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    transition: background-color 1.5s; /* Suaviza a transição de fundo */
+    transition: background-color 0.3s; /* Suaviza a transição de fundo */
   }
   
   .logo-container img {
-    height: auto;
-    width: 120px; /* Tamanho fixo para a logo */
+    position: relative;
+    top: 0vw;
+    height: 8vw;
+    width: auto; /* Tamanho fixo para a logo */
   }
   
   .navigation-links {
     display: flex;
-    gap: 20px; /* Espaçamento entre os links */
+    gap: 2vw; /* Espaçamento entre os links */
+    font-size: 1.5vw;
   }
   
   .navigation-links a {
     text-decoration: none;
-    color: #333; /* Cor escura para melhor contraste no modo claro */
+    color: #f5f5dc; /* Cor escura para melhor contraste no modo claro */
     padding: 5px 10px;
   }
   
   .settings {
     display: flex;
-    gap: 10px;
-    padding-right: 15px;
+    gap: .1vw;
+    padding-right: 2vw;
   }
   
   .settings button {
     background: none;
     border: none;
     cursor: pointer;
-    color: #333;
+    color: #f5f5dc;
+    font-size: 1vw;
+
   }
   
   /* Estilos para o modo escuro */
-  body.dark-mode .transparent-header {
+  body.dark-mode .header {
     background-color: rgba(0, 0, 0, 0.8); /* Fundo levemente transparente para o modo escuro */
   }
   
   body.dark-mode .navigation-links a,
   body.dark-mode .settings button {
-    color: #fff; /* Cor clara para os textos e ícones no modo escuro */
+    color: #f5f5dc; /* Cor clara para os textos e ícones no modo escuro */
   }
   
   /* Responsividade para telas menores */
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .transparent-header {
       height: 20vh; /* Aumenta a altura para acomodar elementos em uma linha */
     }

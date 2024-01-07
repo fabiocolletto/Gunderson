@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`transparent-header ${darkMode ? 'dark-mode' : ''}`}>
+    <header className={`header ${darkMode ? 'dark-mode' : ''}`}>
       <div className="logo-container">
         <img src={logo} alt={t('header.logoAlt')} />
       </div>
