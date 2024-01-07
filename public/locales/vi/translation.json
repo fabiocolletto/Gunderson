@@ -41,7 +41,13 @@
       "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
+ 
+ 
   "common": {
     "learnMore": "Tìm Hiểu Thêm"
+  },
+
+  "newsp": {
+    "sectionTitle": "Tin Tức Mới Nhất"
   }
 }

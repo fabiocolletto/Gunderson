@@ -41,7 +41,14 @@
       "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
+  
+  
   "common": {
     "learnMore": "Saiba Mais"
-  }
+  },
+  
+  
+  "newsp": {
+      "sectionTitle": "Últimas Notícias"
+    }
 }

@@ -1,4 +1,5 @@
-/* Script Servicep.js - 3 cards fixos contendo informações sobre os serviços prestados pela empresa */
+/* Servcicep.js - 3 cards fixos contendo informações sobre os serviços prestados pela empresa */
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Servicep.css';

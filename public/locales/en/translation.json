@@ -35,7 +35,10 @@
       "learnMore": "Learn More",
       "backgroundImg": "/images/servicep3.png"
     }
-  },  "newsCards": {
+  },  
+  
+  
+  "newsCards": {
     "sectionTitle": "Latest News",
     "card1": {
       "title": "Innovation in Maritime Technology",
@@ -46,7 +49,10 @@
   },
   "common": {
     "learnMore": "Learn More"
-  }
-
+  },
   
+  
+  "newsp": {
+      "sectionTitle": "Latest News"
+    }
 }

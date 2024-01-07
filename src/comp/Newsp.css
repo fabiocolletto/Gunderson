@@ -1,0 +1,109 @@
+/* Newsp.css - sessao da home pagem contenendo cards das ultimas noticias postadas em outras mideas */
+
+/* Variáveis para as cores usadas */
+:root {
+    --newsp-background-color: white;
+    --newsp-border-color: #688065;
+    --newsp-text-color: #274922;
+    --newsp-card-background-color: white;
+}
+
+/* Estilo geral da seção newsp */
+.newsp-section {
+    text-align: center;
+    padding: 2em;
+    background-color: var(--newsp-background-color);
+    color: var(--newsp-text-color);
+    position: relative; /* Para posicionar os botões */
+}
+
+/* Título da seção newsp */
+.newsp-title {
+    font-size: calc(1.5em + 1vw);
+    margin-bottom: 1em;
+}
+
+/* Container para os cards newsp */
+.newsp-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 5vw; /* Espaçamento entre os cards */
+    padding: 2vw; /* Espaçamento ao redor dos cards dentro do contêiner */
+    margin: 0 auto; /* Centraliza o container */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Esconde as barras de rolagem no Chrome, Safari e Opera */
+.newsp-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Estilo dos cards newsp */
+.newsp-card {
+    flex: 0 0 20vw; /* Largura fixa */
+    height: 20vw; /* Altura fixa para manter os cards quadrados */
+    border: 2px solid var(--newsp-border-color);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Link dentro do card newsp */
+.newsp-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--newsp-text-color);
+    font-size: calc(0.5em + 1vw);
+}
+
+/* Botões de rolagem */
+.newsp-scroll-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: var(--newsp-card-background-color);
+    border: 2px solid var(--newsp-border-color);
+    width: 40px; /* Tamanho do botão */
+    height: 40px; /* Tamanho do botão */
+    border-radius: 50%; /* Torna o botão circular */
+    box-shadow: 0px 4px 8px var(--newsp-border-color);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.newsp-scroll-button.left {
+    left: 1vw; /* Posiciona o botão para a esquerda */
+}
+
+.newsp-scroll-button.right {
+    right: 1vw; /* Posiciona o botão para a direita */
+}
+
+/* Ajustes para responsividade e telas menores */
+@media (max-width: 500px) {
+    .newsp-card {
+        flex: 0 0 80vw; /* Ajuste para manter o aspecto em telas pequenas */
+        height: 80vw; /* Ajuste para manter os cards quadrados em telas pequenas */
+    }
+
+    .newsp-container {
+        gap: 5vw; /* Espaçamento entre os cards ajustado para telas menores */
+        padding: 2vw; /* Espaçamento ao redor dos cards dentro do contêiner */
+    }
+}
+
+/* Estilos para o modo escuro usando classe */
+body.dark-mode .newsp-section,
+body.dark-mode .newsp-card,
+body.dark-mode .newsp-link,
+body.dark-mode .newsp-scroll-button {
+    --newsp-background-color: #333;
+    --newsp-border-color: #aaa;
+    --newsp-text-color: #ddd;
+    --newsp-card-background-color: #444;
+    scrollbar-color: var(--newsp-border-color) var(--newsp-background-color); /* Cor da barra de rolagem no modo escuro */
+}
