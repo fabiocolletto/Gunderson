@@ -8,13 +8,9 @@
     "darkMode": "Dark Mode",
     "logoAlt": "Gunderson Marine Logo"
   },
-
-
   "mainCover": {
     "text": "Leading the Way in Marine Engineering"
   },
-
-
   "servicep": {
     "sectionTitle": "Our Services",
     "card1": {
@@ -35,9 +31,7 @@
       "learnMore": "Learn More",
       "backgroundImg": "/images/servicep3.png"
     }
-  },  
-  
-  
+  },
   "newsCards": {
     "sectionTitle": "Latest News",
     "card1": {
@@ -48,11 +42,26 @@
     }
   },
   "common": {
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "send": "Send",
+    "submit": "Submit"
   },
-  
-  
   "newsp": {
-      "sectionTitle": "Latest News"
-    }
+    "sectionTitle": "Latest News"
+  },
+  "contactp": {
+    "sectionTitle": "Contact Us",
+    "contactInfo": "Contact Information",
+    "address": "4350 NW Front Ave, Portland, OR 97210",
+    "website": "https://www.gbrx.com/",
+    "phone": "+1 (503) 972-5700",
+    "email": "contact@gundersonmarine.com",
+    "sendMessage": "Send a Message",
+    "submitResume": "Submit Your Resume",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "phonePlaceholder": "Your Phone", 
+    "messagePlaceholder": "Your Message",
+    "uploadResume": "Upload Resume"
+  }
 }

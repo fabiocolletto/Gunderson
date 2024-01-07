@@ -2,7 +2,7 @@
   "header": {
     "homepage": "Inicio",
     "aboutUs": "Sobre Nosotros",
-    "services": "Servicios Marítimos",
+    "services": "Servicios Marinos",
     "contact": "Contacto",
     "news": "Noticias Marinas",
     "darkMode": "Modo Oscuro",
@@ -15,13 +15,13 @@
     "sectionTitle": "Nuestros Servicios",
     "card1": {
       "title": "Construcción Naval",
-      "text": "Expertos en construcción de buques de alta calidad.",
+      "text": "Expertos en construcción de embarcaciones de alta calidad.",
       "learnMore": "Aprender Más",
       "backgroundImg": "/images/servicep1.png"
     },
     "card2": {
       "title": "Reparación y Mantenimiento",
-      "text": "Servicios marinos completos de reparación y mantenimiento.",
+      "text": "Servicios completos de reparación y mantenimiento marino.",
       "learnMore": "Aprender Más",
       "backgroundImg": "/images/servicep2.png"
     },
@@ -35,19 +35,33 @@
   "newsCards": {
     "sectionTitle": "Últimas Noticias",
     "card1": {
-      "title": "Innovación en Tecnología Marítima",
+      "title": "Innovación en Tecnología Marina",
       "text": "Gunderson Marine lidera con nuevas tecnologías sostenibles.",
       "learnMore": "Aprender Más",
       "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
- 
- 
   "common": {
-    "learnMore": "Aprender Más"
+    "learnMore": "Aprender Más",
+    "send": "Enviar",
+    "submit": "Enviar"
   },
-
   "newsp": {
     "sectionTitle": "Últimas Noticias"
+  },
+  "contactp": {
+    "sectionTitle": "Contáctenos",
+    "contactInfo": "Información de Contacto",
+    "address": "4350 NW Front Ave, Portland, OR 97210",
+    "website": "https://www.gbrx.com/",
+    "phone": "+1 (503) 972-5700",
+    "email": "contact@gundersonmarine.com",
+    "sendMessage": "Enviar un Mensaje",
+    "submitResume": "Envía Tu Currículum",
+    "namePlaceholder": "Tu Nombre",
+    "emailPlaceholder": "Tu Correo Electrónico",
+    "messagePlaceholder": "Tu Mensaje",
+    "uploadResume": "Subir Currículum",
+    "phonePlaceholder": "Su Teléfono"
   }
 }

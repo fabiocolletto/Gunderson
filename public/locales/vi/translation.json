@@ -14,8 +14,8 @@
   "servicep": {
     "sectionTitle": "Dịch Vụ Của Chúng Tôi",
     "card1": {
-      "title": "Đóng Tàu",
-      "text": "Chuyên gia trong xây dựng tàu với chất lượng cao.",
+      "title": "Xây Dựng Tàu",
+      "text": "Chuyên gia trong việc xây dựng tàu chất lượng cao.",
       "learnMore": "Tìm Hiểu Thêm",
       "backgroundImg": "/images/servicep1.png"
     },
@@ -26,7 +26,7 @@
       "backgroundImg": "/images/servicep2.png"
     },
     "card3": {
-      "title": "Thiết Kế Riêng",
+      "title": "Thiết Kế Theo Yêu Cầu",
       "text": "Dự án sáng tạo và tùy chỉnh cho nhu cầu hàng hải của bạn.",
       "learnMore": "Tìm Hiểu Thêm",
       "backgroundImg": "/images/servicep3.png"
@@ -41,13 +41,27 @@
       "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
- 
- 
   "common": {
-    "learnMore": "Tìm Hiểu Thêm"
+    "learnMore": "Tìm Hiểu Thêm",
+    "send": "Gửi",
+    "submit": "Nộp"
   },
-
   "newsp": {
     "sectionTitle": "Tin Tức Mới Nhất"
+  },
+  "contactp": {
+    "sectionTitle": "Liên Hệ Với Chúng Tôi",
+    "contactInfo": "Thông Tin Liên Hệ",
+    "address": "4350 NW Front Ave, Portland, OR 97210",
+    "website": "https://www.gbrx.com/",
+    "phone": "+1 (503) 972-5700",
+    "email": "contact@gundersonmarine.com",
+    "sendMessage": "Gửi Tin Nhắn",
+    "submitResume": "Gửi Hồ Sơ",
+    "namePlaceholder": "Tên Của Bạn",
+    "emailPlaceholder": "Email Của Bạn",
+    "messagePlaceholder": "Tin Nhắn Của Bạn",
+    "uploadResume": "Tải Lên Hồ Sơ",
+    "phonePlaceholder": "Số Điện Thoại Của Bạn"
   }
 }

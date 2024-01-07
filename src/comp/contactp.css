@@ -1,0 +1,98 @@
+/* Contactp.css - Seção contendo informações de contato, formulário de mensagem e de currículo */
+
+/* Estilo geral da seção de contato */
+.contactp-section {
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+}
+
+/* Título da seção de contato */
+.contactp-title {
+    color: #274922;
+    font-size: 2vw;
+}
+
+/* Container para os elementos de contato */
+.contactp-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 85vw;
+}
+
+/* Estilo dos elementos individuais de contato */
+.contact-info, .message-form, .resume-form {
+    width: 25vw;
+    border: 2px solid #688065;
+    padding: 1vw;
+    margin: 0 1vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilização dos títulos dentro das colunas */
+.contact-info h2, .message-form h2, .resume-form h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #274922;
+}
+
+/* Estilização dos formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+input, textarea {
+    padding: 0.5vw;
+    font-size: 1vw;
+}
+
+button {
+    color: white;
+    background-color: #274922;
+    border: none;
+    padding: 0.5vw 1vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+/* Estilos para links dentro das informações de contato */
+.contact-info a {
+    color: #000000; /* Cor preta */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse, opcional */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .contactp-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .contact-info, .message-form, .resume-form {
+        width: 80%;
+        margin: 1vw auto;
+    }
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode .contactp-section,
+body.dark-mode .contact-info,
+body.dark-mode .message-form,
+body.dark-mode .resume-form {
+    background-color: #333;
+    color: #f5f5dc;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}

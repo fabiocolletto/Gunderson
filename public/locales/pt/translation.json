@@ -21,7 +21,7 @@
     },
     "card2": {
       "title": "Reparo e Manutenção",
-      "text": "Serviços marítimos completos de reparo e manutenção.",
+      "text": "Serviços completos de reparo e manutenção marítima.",
       "learnMore": "Saiba Mais",
       "backgroundImg": "/images/servicep2.png"
     },
@@ -41,14 +41,28 @@
       "backgroundImg": "path/to/newsImage1.jpg"
     }
   },
-  
-  
   "common": {
-    "learnMore": "Saiba Mais"
+    "learnMore": "Saiba Mais",
+    "send": "Enviar",
+    "submit": "Enviar"
   },
-  
-  
   "newsp": {
-      "sectionTitle": "Últimas Notícias"
-    }
+    "sectionTitle": "Últimas Notícias"
+  },
+  "contactp": {
+    "sectionTitle": "Fale Conosco",
+    "contactInfo": "Informações de Contato",
+    "address": "4350 NW Front Ave, Portland, OR 97210",
+    "website": "https://www.gbrx.com/",
+    "phone": "+1 (503) 972-5700",
+    "email": "contact@gundersonmarine.com",
+    "sendMessage": "Enviar Mensagem",
+    "submitResume": "Enviar Currículo",
+    "namePlaceholder": "Seu Nome",
+    "emailPlaceholder": "Seu Email",
+    "messagePlaceholder": "Sua Mensagem",
+    "uploadResume": "Carregar Currículo",
+    "phonePlaceholder": "Seu Telefone"
+
+  }
 }
