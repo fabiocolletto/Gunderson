@@ -1,4 +1,4 @@
-/* Newsp.css - sessao da home pagem contenendo cards das ultimas noticias postadas em outras mideas */
+/* Newsp.css - sessão da home page contendo cards das últimas notícias postadas em outras mídias */
 
 /* Variáveis para as cores usadas */
 :root {
@@ -30,7 +30,7 @@
     gap: 5vw; /* Espaçamento entre os cards */
     padding: 2vw; /* Espaçamento ao redor dos cards dentro do contêiner */
     margin: 0 auto; /* Centraliza o container */
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none; /* Para Firefox */
 }
 
 /* Esconde as barras de rolagem no Chrome, Safari e Opera */
