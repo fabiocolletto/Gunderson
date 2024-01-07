@@ -1,6 +1,7 @@
 /* Estilo geral da seção dos cards */
 .cards-section {
   text-align: center;
+  margin-bottom: 10vw;
 }
 
 /* Título da seção de cards */
@@ -39,11 +40,13 @@
 
 .card-text {
   text-align: left;
+  font-size: 1.3vw;
 }
 
 .card-link {
   text-align: right;
   color: #274922;
+  font-size: 1vw;
 }
 
 /* Responsividade para telas menores */

@@ -2,6 +2,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Servicep.css';
+import servicep1 from '../images/servicep1.png';
+import servicep2 from '../images/servicep2.png';
+import servicep3 from '../images/servicep3.png';
 
 const ServicepCard = ({ titleKey, textKey, link, backgroundImg }) => {
   const { t } = useTranslation();
@@ -23,19 +26,19 @@ const Servicep = () => {
       titleKey: 'servicep.card1.title',
       textKey: 'servicep.card1.text',
       link: '/link1',
-      backgroundImg: '/images/service-card1.png',
+      backgroundImg: servicep1,
     },
     {
       titleKey: 'servicep.card2.title',
       textKey: 'servicep.card2.text',
       link: '/link2',
-      backgroundImg: '/images/service-card2.png',
+      backgroundImg: servicep2,
     },
     {
       titleKey: 'servicep.card3.title',
       textKey: 'servicep.card3.text',
       link: '/link3',
-      backgroundImg: '/images/service-card3.png',
+      backgroundImg: servicep3,
     },
   ];
 
