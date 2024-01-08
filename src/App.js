@@ -6,6 +6,8 @@ import MainCover from './comp/MainCover'; // Verifique o caminho correto
 import Servicep from './comp/Servicep'; // Verifique o caminho correto
 import Newsp from './comp/Newsp'; // Verifique o caminho correto
 import Contactp from './comp/Contactp'; // Verifique o caminho correto
+import SocialMediaLinks from './comp/SocialMediaLinks'; // Verifique o caminho correto
+
 
 import AboutUs from './pages/AboutUs'; // Verifique o caminho correto
 import Services from './pages/Services'; // Verifique o caminho correto
@@ -24,6 +26,8 @@ function App() {
               <Servicep />
               <Newsp />
               <Contactp />
+              <SocialMediaLinks />
+
             </>
           } />
           <Route path="/homepage" element={
@@ -32,6 +36,8 @@ function App() {
             <Servicep />
             <Newsp />
             <Contactp />
+            <SocialMediaLinks />
+
           </>
         } />
           <Route path="/aboutus" element={<AboutUs />} />

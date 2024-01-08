@@ -1,0 +1,23 @@
+.social-media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espaço entre os ícones */
+    padding: 2rem;
+  }
+  
+  .social-media-section a {
+    display: block; /* Para que o padding funcione corretamente nos links */
+    padding: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-media-section img {
+    width: 50px; /* ou o tamanho que você preferir */
+    height: auto;
+  }
+  
+  .social-media-section a:hover {
+    transform: scale(1.1); /* Efeito de zoom leve ao passar o mouse */
+  }
+  
